@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "a53b12c465a43e41",
+    "type": "split",
+    "children": [
+      {
+        "id": "524c0eea0728bb75",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3aa9e7f69c734187",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Aufgaben Netzwerk/Szenario 1 - DirectConnect/Dokumentation 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dokumentation 1"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5bf73520c1d287b4",
+    "type": "split",
+    "children": [
+      {
+        "id": "bcc5aef72c9f2c6e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ff60bfaa44b2856c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3432f1d1463f6b6f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "af7b2c876227aed8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7787ed1a616732e5",
+    "type": "split",
+    "children": [
+      {
+        "id": "84f4c6f2e6c39d9a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e4300a9902e16c7d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Szenario 1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Szenario 1"
+            }
+          },
+          {
+            "id": "e701140001f02925",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Szenario 1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Szenario 1"
+            }
+          },
+          {
+            "id": "59bf74e459f80d32",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5350718c8438cfd7",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "cdb579b204dd030a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Szenario 1.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Szenario 1"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "3aa9e7f69c734187",
+  "lastOpenFiles": [
+    "Aufgaben Netzwerk/Szenario 2 - DirectConnect VLAN/Dokumentation 2.md",
+    "Aufgaben Netzwerk/Szenario 1 - DirectConnect/Dokumentation 1.md",
+    "clone.md",
+    "Aufgaben Netzwerk/Szenario 2 - DirectConnect VLAN/Screenshots/Pasted image 20251208160454.png",
+    "Aufgaben Netzwerk/Szenario 2 - DirectConnect VLAN/Screenshots/Pasted image 20251208155135.png",
+    "Aufgaben Netzwerk/Szenario 2 - DirectConnect VLAN/Screenshots/Pasted image 20251208155113.png",
+    "Aufgaben Netzwerk/Szenario 2 - DirectConnect VLAN/Screenshots/Pasted image 20251208155053.png",
+    "Aufgaben Netzwerk/Szenario 2 - DirectConnect VLAN/Screenshots/Pasted image 20251208145239.png",
+    "Aufgaben Netzwerk/Szenario 2 - DirectConnect VLAN/Screenshots/Pasted image 20251208132833.png",
+    "Aufgaben Netzwerk/Szenario 2 - DirectConnect VLAN/Screenshots/Pasted image 20251208132814.png",
+    "Aufgaben Netzwerk/Szenario 2 - DirectConnect VLAN/Screenshots/Pasted image 20251208090904.png",
+    "Aufgaben Netzwerk/Szenario 2 - DirectConnect VLAN/Screenshots",
+    "Aufgaben Netzwerk/Szenario 2 - DirectConnect VLAN",
+    "Aufgaben Netzwerk/Szenario 1 - DirectConnect/Screenshots/Pasted image 20251208085145.png",
+    "Dokumentation Vorlage.md",
+    "Dokumentierte Befehle.md",
+    "README.md",
+    "Aufgaben Netzwerk/Szenario 1 - DirectConnect/Screenshots/Pasted image 20251204151029.png",
+    "Aufgaben Netzwerk/Szenario 1/Screnshots",
+    "Aufgaben Netzwerk/Szenario 1 - DirectConnect/Screenshots",
+    "Aufgaben Netzwerk/Szenario 1/Screenschots",
+    "2025-12-03.md",
+    "Untitled.base",
+    "Untitled.canvas",
+    "Aufgaben Netzwerk/Szenario 1 - DirectConnect",
+    "create a link.md",
+    "Welcome.md",
+    "Aufgaben Netzwerk"
+  ]
+}
