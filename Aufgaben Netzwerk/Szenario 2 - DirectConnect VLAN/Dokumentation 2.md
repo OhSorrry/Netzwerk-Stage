@@ -36,20 +36,24 @@ Zuerst mittels `enable` in den enable Modus und dann mittels `conf t` in den Kon
 Danach mittels `hostname <NeuerName>` einen neuen Namen für den Switch setzen.
 ![[Pasted image 20251208132833.png]]
 
+
 ---
 ## VLAN erstellen
+Zuerst mittels `enable` in den enable Modus und dann mittels `conf t` in den Konfigurationsmodus:
+![[Pasted image 20251208132814.png]]
 
-
+Danach mittels`vlan X` in das gewünschte VLAN wechseln:
 ![](Screenshots/Pasted%20image%2020251211102711.png)
 
+Nun mittels `name X` einen Namen setzen:
 ![](Screenshots/Pasted%20image%2020251211103137.png)
 
+Danach mit `exit` aus der Konfiguration gehen:
 ![](Screenshots/Pasted%20image%2020251211103159.png)
 
 
  ---
 ## Interface erstellen
-
 Zuerst mittels `enable` in den enable Modus und dann mittels `conf t` in den Konfigurationsmodus:
 ![[Pasted image 20251208132814.png]]
 
@@ -69,18 +73,23 @@ Mittels `exit` die Konfiguration verlassen:
 
 ---
 ## Interface Description erstellen
+Zuerst mittels `enable` in den enable Modus und dann mittels `conf t` in den Konfigurationsmodus:
+![[Pasted image 20251208132814.png]]
 
+Danach mittels `interface faX/X/X` in das gewünschte interface wechseln.
 ![[Pasted image 20251208155053.png]]
 
-
+danach mittels `description <NeueDescription>` eine passende Description anlegen:
 ![[Pasted image 20251208155135.png]]
+
+Mittels `exit` die Konfiguration verlassen:
+![[Pasted image 20251211083609.png]]
 
 
 ---
-VLAN löschen
-
-
+## VLAN löschen
+Mittels `delete flash:vlan.dat` die VLAN Konfiguration löschen:
 ![](Screenshots/Pasted%20image%2020251211085245.png)
 
-
+Sicherstellen das die Datei die richtige ist und bestätigen:
 ![](Screenshots/Pasted%20image%2020251211085321.png)

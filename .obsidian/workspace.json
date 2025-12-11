@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aufgaben Netzwerk/Szenario 2 - DirectConnect VLAN/Dokumentation 2.md",
+                "file": "Aufgaben Netzwerk/Szenario 3 - Router on a Stick/Dokumentation 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dokumentation 2"
+              "title": "Dokumentation 3"
             }
           }
         ],
@@ -211,11 +211,12 @@
   },
   "active": "6474edae64d8398c",
   "lastOpenFiles": [
+    "Aufgaben Netzwerk/Szenario 2 - DirectConnect VLAN/Dokumentation 2.md",
+    "Aufgaben Netzwerk/Szenario 3 - Router on a Stick/Dokumentation 3.md",
+    "Aufgaben Netzwerk/Szenario 1 - DirectConnect/Dokumentation 1.md",
     "Aufgaben Netzwerk/Szenario 2 - DirectConnect VLAN/Screenshots/Pasted image 20251211103159.png",
     "Aufgaben Netzwerk/Szenario 2 - DirectConnect VLAN/Screenshots/Pasted image 20251211103137.png",
     "Aufgaben Netzwerk/Szenario 2 - DirectConnect VLAN/Screenshots/Pasted image 20251211102711.png",
-    "Aufgaben Netzwerk/Szenario 3 - Router on a Stick/Dokumentation 3.md",
-    "Aufgaben Netzwerk/Szenario 2 - DirectConnect VLAN/Dokumentation 2.md",
     "Aufgaben Netzwerk/Szenario 3 - Router on a Stick",
     "Aufgaben Netzwerk/Szenario 2 - DirectConnect VLAN/Screenshots/Pasted image 20251211085321.png",
     "Aufgaben Netzwerk/Szenario 2 - DirectConnect VLAN/Screenshots/Pasted image 20251211085245.png",
@@ -223,9 +224,7 @@
     "Aufgaben Netzwerk/Szenario 2 - DirectConnect VLAN/Screenshots/Pasted image 20251211082318.jpg",
     "Aufgaben Netzwerk/Szenario 2 - DirectConnect VLAN/Screenshots/Pasted image 20251211083546.png",
     "Aufgaben Netzwerk/Szenario 2 - DirectConnect VLAN/Screenshots/Pasted image 20251211083609.png",
-    "Aufgaben Netzwerk/Szenario 1 - DirectConnect/Dokumentation 1.md",
     "Aufgaben Netzwerk/Szenario 2 - DirectConnect VLAN/Screenshots/Pasted image 20251211083525.png",
-    "Aufgaben Netzwerk/Szenario 2 - DirectConnect VLAN/Screenshots/Pasted image 20251211083505.png",
     "initial commit.md",
     "Dokumentation Vorlage.md",
     "Aufgaben Netzwerk/Szenario 1 - DirectConnect/Untitled.base",
