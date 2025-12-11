@@ -80,3 +80,13 @@ Mittels `exit` die Konfiguration verlassen:
 
 
 ![[Pasted image 20251208155135.png]]
+
+
+---
+VLAN löschen
+
+
+![](Screenshots/Pasted%20image%2020251211085245.png)
+
+
+![](Screenshots/Pasted%20image%2020251211085321.png)
