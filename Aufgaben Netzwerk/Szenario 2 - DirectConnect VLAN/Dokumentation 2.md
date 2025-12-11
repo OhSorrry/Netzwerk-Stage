@@ -23,7 +23,7 @@ Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung
 # Hauptteil
 
 ## Router Konfig
-Den Router haben wir gemäss Aufgabe 1 - DirectConnect aufgesetz 
+Den Router haben wir gemäss Aufgabe 1 - DirectConnect aufgesetzt. genauere Infos dazu finde 
 
 
 ## Name ändern
