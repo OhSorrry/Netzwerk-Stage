@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aufgaben Netzwerk/Szenario 2 - DirectConnect VLAN/Dokumentation 2.md",
+                "file": "Aufgaben Netzwerk/Szenario 1 - DirectConnect/Dokumentation 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dokumentation 2"
+              "title": "Dokumentation 1"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "Dokumentation 3"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -209,7 +208,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6474edae64d8398c",
+  "active": "ad8e9965c4460ac3",
   "lastOpenFiles": [
     "Aufgaben Netzwerk/Szenario 2 - DirectConnect VLAN/Dokumentation 2.md",
     "Aufgaben Netzwerk/Szenario 3 - Router on a Stick/Dokumentation 3.md",
