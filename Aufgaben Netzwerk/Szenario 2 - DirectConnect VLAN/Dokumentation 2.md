@@ -22,6 +22,8 @@ Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung
 ---
 # Hauptteil
 
+
+
 ## Name ändern
 asd
 ![[Pasted image 20251208132814.png]]
