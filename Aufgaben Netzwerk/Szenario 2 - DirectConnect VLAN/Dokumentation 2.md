@@ -2,7 +2,7 @@
 # Einleitung
 
 ## Auftrag
-Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung entspricht. es gibt zwei 
+Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung entspricht. es gibt zwei Clients die sich über einen 
 
 
 
