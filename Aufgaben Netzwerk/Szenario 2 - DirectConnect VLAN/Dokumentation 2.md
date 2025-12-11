@@ -40,6 +40,10 @@ Danach mittels `hostname <NeuerName>` einen neuen Namen für den Switch setzen.
 ## VLAN erstellen
 
 
+![](Screenshots/Pasted%20image%2020251211102711.png)
+
+
+
 
 
 
@@ -60,12 +64,6 @@ Das VLAN in dem der Port sein soll kann man mittels `switchport access vlan X` a
 
 Mittels `exit` die Konfiguration verlassen:
 ![[Pasted image 20251211083609.png]]
-
-
----
-## Interface erstellen
-
-
 
 
 
