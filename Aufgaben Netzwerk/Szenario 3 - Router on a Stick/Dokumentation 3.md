@@ -29,3 +29,18 @@ Den
 ---
 ---
 # Switch Konfig
+
+
+
+
+
+
+![](Screenshots/Pasted%20image%2020251211140923.png)
+
+![](Screenshots/Pasted%20image%2020251211141013.png)
+
+![](Screenshots/Pasted%20image%2020251211141046.png)
+
+![](Screenshots/Pasted%20image%2020251211141113.png)
+
+![](Screenshots/Pasted%20image%2020251211141138.png)
