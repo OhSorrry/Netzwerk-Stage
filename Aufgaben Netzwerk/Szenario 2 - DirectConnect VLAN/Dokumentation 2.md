@@ -87,7 +87,7 @@ Mittels `exit` die Konfiguration verlassen:
 
 
 ---
-## VLAN löschen
+## VLAN Einstellungen löschen
 Mittels `delete flash:vlan.dat` die VLAN Konfiguration löschen:
 ![](Screenshots/Pasted%20image%2020251211085245.png)
 
