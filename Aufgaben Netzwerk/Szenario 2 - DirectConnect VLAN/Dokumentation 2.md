@@ -42,9 +42,9 @@ Danach mittels `hostname <NeuerName>` einen neuen Namen für den Switch setzen.
 
 ![](Screenshots/Pasted%20image%2020251211102711.png)
 
+![](Screenshots/Pasted%20image%2020251211103137.png)
 
-
-
+![](Screenshots/Pasted%20image%2020251211103159.png)
 
 
  ---
