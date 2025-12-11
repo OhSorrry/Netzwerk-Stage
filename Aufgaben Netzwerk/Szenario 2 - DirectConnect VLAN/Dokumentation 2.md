@@ -35,37 +35,37 @@ Zuerst mittels `enable` in den enable Modus und dann mittels `conf t` in den Kon
 Danach mittels `hostname <NeuerName>` einen neuen Namen für den Switch setzen.
 ![[Pasted image 20251208132833.png]]
 
+---
+## VLAN erstellen
+
+
+
+
+
  ---
-## Vlan erstellen
+## Interface erstellen
 
 Zuerst mittels `enable` in den enable Modus und dann mittels `conf t` in den Konfigurationsmodus:
 ![[Pasted image 20251208132814.png]]
 
-asd
+Danach mittels `interface faX/X/X` in das gewünschte interface wechseln.
 ![[Pasted image 20251211083445.png]]
 
-yxc
+Nun kann man via `switchport mode access` den Modus des Ports auf access setzen.
 ![[Pasted image 20251211083505.png]]
 
-asd
+Das VLAN in dem der Port sein soll kann man mittels `switchport access vlan X` anwählen:
 ![[Pasted image 20251211083525.png]]
 
-asd
-![[Pasted image 20251211083546.png]]
-
-asd
+Mittels `exit` die Konfiguration verlassen:
 ![[Pasted image 20251211083609.png]]
+
 
 ---
 ## Interface erstellen
 
-![[Pasted image 20251208155053.png]]
-
-![[Pasted image 20251208155113.png]]
 
 
-
-![[Pasted image 20251208160454.png]]
 
 
 ---
