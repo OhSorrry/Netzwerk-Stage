@@ -23,9 +23,10 @@ Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung
 # Hauptteil
 
 ## Router Konfig
-Den Router haben wir gemäss Aufgabe 1 - DirectConnect aufgesetzt. genauere Infos dazu finde 
+Den Router haben wir gemäss [[Dokumentation 1]] aufgesetzt. genauere Infos dazu findet man in der Dokumentation 1. 
 
 
+---
 ## Name ändern
 asd
 ![[Pasted image 20251208132814.png]]
