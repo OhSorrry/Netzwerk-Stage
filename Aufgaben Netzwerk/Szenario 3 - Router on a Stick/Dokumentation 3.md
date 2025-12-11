@@ -38,6 +38,7 @@ Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung
 
 ![](Screenshots/Pasted%20image%2020251211164001.png)
 
+
 ---
 ## VLAN's erstellen
 
