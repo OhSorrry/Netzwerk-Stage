@@ -2,7 +2,7 @@
 # Einleitung
 
 ## Auftrag
-Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung entspricht. es gibt zwei Clients die sich über einen Switch und einen Router pingen können und zwar indem der eine Client auf den Switch zugreift, von dort aus auf den Router, dann wieder zurück auf den Switch und schlussendlich auf den anderen Client. Das Ziel ist das wenn man die Kabel von Switch zu Router an dem jeweils anderen Port anschliesst, der Ping nicht mehr funktionieren sollte. Wir mu
+Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung entspricht. es gibt zwei Clients die sich über einen Switch und einen Router pingen können und zwar indem der eine Client auf den Switch zugreift, von dort aus auf den Router, dann wieder zurück auf den Switch und schlussendlich auf den anderen Client. Das Ziel ist das wenn man die Kabel von Switch zu Router an dem jeweils anderen Port anschliesst, der Ping nicht mehr funktionieren sollte. Unsere erste Idee
 
 
 
