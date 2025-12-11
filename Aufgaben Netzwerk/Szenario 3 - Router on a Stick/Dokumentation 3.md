@@ -32,16 +32,19 @@ Den
 
 ## Interface
 
-![](Screenshots/Pasted%20image%2020251211161938.png)
+
+![](Screenshots/Pasted%20image%2020251211163530.png)
+
+![](Screenshots/Pasted%20image%2020251211163404.png)
 
 
-![](Screenshots/Pasted%20image%2020251211161951.png)
 
 
-![](Screenshots/Pasted%20image%2020251211162007.png)
 
 
-![](Screenshots/Pasted%20image%2020251211161918.png)
+
+
+
 
 
 
