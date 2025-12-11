@@ -20,13 +20,15 @@ Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung
 
 ---
 ---
-# Hauptteil
+#  Konfig
 
 ## Router Konfig
 Den Router haben wir gemäss [[Dokumentation 1]] aufgesetzt. genauere Infos dazu findet man in der Dokumentation 1. 
 
 
 ---
+---
+# Switch Konfig
 ## Name ändern
 asd
 ![[Pasted image 20251208132814.png]]
