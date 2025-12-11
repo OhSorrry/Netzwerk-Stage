@@ -10,20 +10,13 @@ Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung
 
 ## Adresstabelle
 
-| Bauteil:   | Name:      | IP-Adresse:                                            | Description:                             |
-| ---------- | ---------- | ------------------------------------------------------ | ---------------------------------------- |
-| Windows PC | *TLABPC01* | *172.21.1.10*                                          | -                                        |
-| Linux PC   | *TLABPC02* | *172.21.2.10*                                          | -                                        |
-| Router     | *TLABr08*  | **FA0/0:** *172.21.1.1*<br>                            | zu TLABs05                               |
-| Switch     | TLABs05    | **FA1/0/1:** -<br>**FA1/0/2:** -<br>**FA1/0/3:** -<br> | zu TLABr08<br>zu TLABPC01<br>zu TLABPC02 |
+| Bauteil:   | Name:      | IP-Adresse:                                            | Description:                                              |
+| ---------- | ---------- | ------------------------------------------------------ | --------------------------------------------------------- |
+| Windows PC | *TLABPC01* | *172.21.1.10*                                          | -                                                         |
+| Linux PC   | *TLABPC02* | *172.21.2.10*                                          | -                                                         |
+| Router     | *TLABr08*  | **FA0/0:** *172.21.1.1*<br>                            | TLABs05                                                   |
+| Switch     | TLABs05    | **FA1/0/1:** -<br>**FA1/0/2:** -<br>**FA1/0/3:** -<br> | TLABr08 TRUNK<br>TLABPC01 (VLAN 10)<br>TLABPC02 (VLAN 20) |
 
-
-
----
----
-# Übernommenne Konfig
-
-Den 
 
 
 ---
@@ -39,15 +32,18 @@ Den
 
 
 
+![](Screenshots/Pasted%20image%2020251211163940.png)
 
+![](Screenshots/Pasted%20image%2020251211163950.png)
 
+![](Screenshots/Pasted%20image%2020251211164001.png)
 
+---
+## VLAN's erstellen
 
+![](Screenshots/Pasted%20image%2020251211164125.png)
 
-
-
-
-
+![](Screenshots/Pasted%20image%2020251211164136.png)
 
 
 
