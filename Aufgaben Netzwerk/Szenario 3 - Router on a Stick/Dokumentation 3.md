@@ -30,9 +30,26 @@ Den
 ---
 # Switch Konfig
 
+## Interface
+
+![](Screenshots/Pasted%20image%2020251211161938.png)
+
+
+![](Screenshots/Pasted%20image%2020251211161951.png)
+
+
+![](Screenshots/Pasted%20image%2020251211162007.png)
+
+
+![](Screenshots/Pasted%20image%2020251211161918.png)
 
 
 
+
+
+
+
+---
 ## Dummy VLAN erstellen
 
 ![](Screenshots/Pasted%20image%2020251211140923.png)
