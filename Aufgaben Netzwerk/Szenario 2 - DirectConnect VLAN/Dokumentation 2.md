@@ -29,20 +29,32 @@ Den Router sowie die beiden Clients haben wir gemäss [[Dokumentation 1]] aufges
 ---
 # Switch Konfig
 ## Name ändern
-asd
+Zuerst mittels `enable` in den enable Modus und dann mittels `conf t` in den Konfigurationsmodus:
 ![[Pasted image 20251208132814.png]]
 
-asd
+Danach mittels `hostname <NeuerName>` einen neuen Namen für den Switch setzen.
 ![[Pasted image 20251208132833.png]]
 
  ---
 ## Vlan erstellen
-asd
+
+Zuerst mittels `enable` in den enable Modus und dann mittels `conf t` in den Konfigurationsmodus:
 ![[Pasted image 20251208132814.png]]
 
 asd
- 
+![[Pasted image 20251211083445.png]]
 
+yxc
+![[Pasted image 20251211083505.png]]
+
+asd
+![[Pasted image 20251211083525.png]]
+
+asd
+![[Pasted image 20251211083546.png]]
+
+asd
+![[Pasted image 20251211083609.png]]
 
 ---
 ## Interface erstellen
