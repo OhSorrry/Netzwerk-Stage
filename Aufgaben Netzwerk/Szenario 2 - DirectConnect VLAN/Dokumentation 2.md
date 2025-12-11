@@ -20,10 +20,9 @@ Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung
 
 ---
 ---
-#  Konfig
+# Übernommenne Konfig
 
-## Router Konfig
-Den Router haben wir gemäss [[Dokumentation 1]] aufgesetzt. genauere Infos dazu findet man in der Dokumentation 1. 
+Den Router sowie die beiden Clients haben wir gemäss [[Dokumentation 1]] aufgesetzt. genauere Infos dazu findet man dort.
 
 
 ---
