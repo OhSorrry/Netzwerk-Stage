@@ -2,7 +2,7 @@
 # Einleitung
 
 ## Auftrag
-Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung entspricht. es gibt zwei Clients die sich über einen Switch und einen Router pingen können und zwar indem der eine Client auf den Switch zugreift, von dort aus auf de
+Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung entspricht. es gibt zwei Clients die sich über einen Switch und einen Router pingen können und zwar indem der eine Client auf den Switch zugreift, von dort aus auf den Router, dann wieder zurü
 
 
 
