@@ -69,9 +69,9 @@ Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung
 ---
 ## VTY-Access
 
+![](Screenshots/Pasted%20image%2020251211172445.png)
 
-![](Screenshots/Pasted%20image%2020251211163135.png)
-
+![](Screenshots/Pasted%20image%2020251211172501.png)
 
 
 
