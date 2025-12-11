@@ -66,3 +66,15 @@ Den
 ![](Screenshots/Pasted%20image%2020251211141332.png)
 
 
+---
+## VTY-Access
+
+
+![](Screenshots/Pasted%20image%2020251211163135.png)
+
+
+
+
+
+
+
