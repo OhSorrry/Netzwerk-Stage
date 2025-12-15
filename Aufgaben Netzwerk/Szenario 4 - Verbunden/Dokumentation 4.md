@@ -59,7 +59,7 @@ Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung
 ![](Screenshots/Pasted%20image%2020251215150344.png)
 ![](Screenshots/Pasted%20image%2020251215150356.png)
 
-
+![](Screenshots/Pasted%20image%2020251215151245.png)
 
 
 
