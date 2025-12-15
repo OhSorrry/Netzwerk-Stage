@@ -4,7 +4,7 @@
 ## Auftrag
 Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung entspricht. 
 
-
+![](Screenshots/Pasted%20image%2020251215084742.jpg)
 
 
 
