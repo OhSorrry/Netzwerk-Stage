@@ -2,7 +2,12 @@
 # Einleitung
 
 ## Auftrag
-Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung entspricht. 
+Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung entspricht. Diese Aufgabe war ähnlich wie das Szenario 2, jedoch gibt es zwischen Switch und Router nur noch ein Kabel. So muss man nun eine Konfiguration Namens "Router in a Stick" konfigurieren. hierbei wird das einzelne Kabel für zwei separate Vlans verwendet. Dies kann man über einen Trunk lösen, dieser muss auf dem Switch sowie auf dem Router Konfiguriert werden. Die zwei Clients werden in ein jeweils anderes Vlan integriert, das auch auf dem Switch ist und mittels des Trunk Ports konfiguriert wird. auf dem Router müssen in dem angeschlossenen Port zwei Sub-Interfaces erstellt werden über die die Verbindung läuft. 
+
+Gestellte Anforderungen an das System:
+- Access ohne Konsolenkabel (VTY)
+- Alle ungenutzen 
+
 
 ![](Screenshots/Pasted%20image%2020251215084742.jpg)
 
