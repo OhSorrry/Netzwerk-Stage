@@ -6,7 +6,9 @@ Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung
 
 Gestellte Anforderungen an das System:
 - Access ohne Konsolenkabel (VTY)
-- Alle ungenutzen 
+- Alle ungenutzten Ports ausschalten (Dummy VLAN)
+- Alle Ports haben Beschreibungen
+- Alle Anforderungen der Vorherigen Aufgabe müssen ebenfalls umgesetzte werden
 
 
 ![](Screenshots/Pasted%20image%2020251215084742.jpg)
