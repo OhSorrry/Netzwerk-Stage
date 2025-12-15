@@ -40,6 +40,13 @@ Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung
 
 
 ---
+## Passwörter setzen
+![](Screenshots/Pasted%20image%2020251215153725.png)
+
+![](Screenshots/Pasted%20image%2020251215153743.png)
+
+
+---
 ## VTY-Access
 ![](Screenshots/Pasted%20image%2020251215152442.png)
 
@@ -85,3 +92,32 @@ Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung
 ---
 ---
 # Router Konfig
+
+## Namen ändern
+![](Screenshots/Pasted%20image%2020251215153639.png)
+
+
+---
+## Passwörter setzen
+
+![](Screenshots/Pasted%20image%2020251215153905.png)
+
+![](Screenshots/Pasted%20image%2020251215153916.png)
+
+
+---
+## Banner erstellen
+![](Screenshots/Pasted%20image%2020251215154021.png)
+
+**Banner Vorlage:**
+```cisco
++-------------------------+
+| Finger weg!             |
++-------------------------+
+```
+
+
+---
+## VTY-Access
+
+
