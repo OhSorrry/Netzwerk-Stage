@@ -108,3 +108,7 @@ mittels `ip address x.x.x.x x.x.x.x` eine neue IP setzen:
 
 Das ganze noch für das zweite sub-interface erstellen:
 ![](Screenshots/Pasted%20image%2020251211165249.png)
+
+
+---
+![](Screenshots/Pasted%20image%2020251215095421.png)
