@@ -116,3 +116,27 @@ Das ganze noch für das zweite sub-interface erstellen:
 
 ---
 ![](Screenshots/Pasted%20image%2020251215095421.png)
+
+
+
+---
+---
+# Häufig Verwendete Befehle
+
+```
+enable
+conf t
+end
+exit
+write memory
+
+no ip domain-lookup
+
+hostname <NeuerName>
+
+interface FAx/x
+ip address <gewünschte IP> <Subnetzmaske>
+no shutdown
+
+
+```

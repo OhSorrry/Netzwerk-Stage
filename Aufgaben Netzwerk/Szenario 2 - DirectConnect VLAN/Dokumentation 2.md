@@ -93,3 +93,27 @@ Mittels `delete flash:vlan.dat` die VLAN Konfiguration löschen:
 
 Sicherstellen das die Datei die richtige ist und bestätigen:
 ![](Screenshots/Pasted%20image%2020251211085321.png)
+
+
+
+---
+---
+# Häufig Verwendete Befehle
+
+```
+enable
+conf t
+end
+exit
+write memory
+
+no ip domain-lookup
+
+hostname <NeuerName>
+
+interface FAx/x
+ip address <gewünschte IP> <Subnetzmaske>
+no shutdown
+
+
+```

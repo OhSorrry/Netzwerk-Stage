@@ -152,7 +152,7 @@ In den Einstellungen im PC auf "**Netzwerk --> Ethernet**". Dort auf "**IP-Einst
 
 ---
 ---
-# Verwendete Befehle
+# Häufig Verwendete Befehle
 
 ```
 enable
