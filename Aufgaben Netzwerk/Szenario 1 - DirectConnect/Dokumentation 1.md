@@ -128,11 +128,12 @@ Zuerst in den "**global configuration mode**" wechseln:
 Danach mittels `banner motd #Gewünschtes Banner#` den gewünschten Bannertext eingeben:
 ![[Pasted image 20251204144137.png]]
 
-
 ```cisco
-
-
++-------------------------+
+| Finger weg!             |
++-------------------------+
 ```
+
 
 ---
 ## Konfiguration speichern
