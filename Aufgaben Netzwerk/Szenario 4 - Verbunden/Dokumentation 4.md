@@ -60,3 +60,17 @@ Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung
 ![](Screenshots/Pasted%20image%2020251215150356.png)
 
 
+
+
+
+
+---
+## Dummy VLAN erstellen
+
+![](Screenshots/Pasted%20image%2020251215151038.png)
+
+
+
+
+
+---
