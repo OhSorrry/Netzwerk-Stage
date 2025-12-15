@@ -46,11 +46,12 @@ Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung
 
 
 ---
+## Interface
 
-
-
-
-
-
+![](Screenshots/Pasted%20image%2020251215150301.png)
+![](Screenshots/Pasted%20image%2020251215150313.png)
+![](Screenshots/Pasted%20image%2020251215150330.png)
+![](Screenshots/Pasted%20image%2020251215150344.png)
+![](Screenshots/Pasted%20image%2020251215150356.png)
 
 
