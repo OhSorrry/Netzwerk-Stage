@@ -32,7 +32,6 @@ Gestellte Anforderungen an das System:
 
 ## Interface
 
-
 ![](Screenshots/Pasted%20image%2020251211163530.png)
 
 ![](Screenshots/Pasted%20image%2020251211163404.png)
@@ -115,6 +114,8 @@ Das ganze noch für das zweite sub-interface erstellen:
 
 
 ---
+## IP und Mac-Adressen herausfinden
+im enable mode den Befehl `show ip arp` eingeben:
 ![](Screenshots/Pasted%20image%2020251215095421.png)
 
 
