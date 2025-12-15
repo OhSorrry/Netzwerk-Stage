@@ -23,7 +23,6 @@ Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung
 ---
 # Switch Konfig
 
-
 ## Namen ändern
 ![](Screenshots/Pasted%20image%2020251215145537.png)
 
@@ -42,7 +41,7 @@ Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung
 
 ---
 ## VTY-Access
-![](Screenshots/Pasted%20image%2020251215145655.png)
+![](Screenshots/Pasted%20image%2020251215152442.png)
 
 
 ---
@@ -59,7 +58,9 @@ Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung
 ![](Screenshots/Pasted%20image%2020251215150344.png)
 ![](Screenshots/Pasted%20image%2020251215150356.png)
 
+
 ![](Screenshots/Pasted%20image%2020251215151517.png)
+
 
 ![](Screenshots/Pasted%20image%2020251215151245.png)
 
@@ -69,8 +70,18 @@ Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung
 
 ![](Screenshots/Pasted%20image%2020251215151038.png)
 
+
 ![](Screenshots/Pasted%20image%2020251215151729.png)
+
+
+---
+
+
+
+
 
 
 
 ---
+---
+# Router Konfig
