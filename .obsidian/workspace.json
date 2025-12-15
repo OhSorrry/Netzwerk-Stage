@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -223,11 +223,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6474edae64d8398c",
+  "active": "95e0afba6f97036f",
   "lastOpenFiles": [
+    "Aufgaben Netzwerk/Szenario 3 - Router on a Stick/Dokumentation 3.md",
+    "Aufgaben Netzwerk/Szenario 3 - Router on a Stick/Screenshots/Pasted image 20251215095901.png",
     "Aufgaben Netzwerk/Szenario 3 - Router on a Stick/Screenshots/Pasted image 20251215095421.png",
     "Aufgaben Netzwerk/Szenario 2 - DirectConnect VLAN/Dokumentation 2.md",
-    "Aufgaben Netzwerk/Szenario 3 - Router on a Stick/Dokumentation 3.md",
     "Aufgaben Netzwerk/Szenario 3 - Router on a Stick/Screenshots/Pasted image 20251215084742.jpg",
     "Aufgaben Netzwerk/Szenario 3 - Router on a Stick/Screenshots/Pasted image 20251211172636.png",
     "Aufgaben Netzwerk/Szenario 3 - Router on a Stick/Screenshots/Pasted image 20251211172501.png",
@@ -237,8 +238,6 @@
     "Aufgaben Netzwerk/Szenario 3 - Router on a Stick/Screenshots/Pasted image 20251211165152.png",
     "Aufgaben Netzwerk/Szenario 3 - Router on a Stick/Screenshots/Pasted image 20251211165103.png",
     "Aufgaben Netzwerk/Szenario 3 - Router on a Stick/Screenshots/Pasted image 20251211165049.png",
-    "Aufgaben Netzwerk/Szenario 3 - Router on a Stick/Screenshots/Pasted image 20251211164933.png",
-    "Aufgaben Netzwerk/Szenario 3 - Router on a Stick/Screenshots/Pasted image 20251211164136.png",
     "Aufgaben Netzwerk/Szenario 3 - Router on a Stick/Screenshots",
     "Aufgaben Netzwerk/Szenario 3 - Router on a Stick",
     "initial commit.md",

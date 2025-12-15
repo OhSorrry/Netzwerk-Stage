@@ -90,6 +90,10 @@ Den default-gateway mittels `ip default gateway x.x.x.x` auf den Router setzen:
 
 
 ---
+![](Screenshots/Pasted%20image%2020251215095901.png)
+
+
+---
 ---
 # Router Konfiguration
 
