@@ -126,7 +126,16 @@ Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung
 ---
 ## Interface erstellen
 
+
+
 ![](Screenshots/Pasted%20image%2020251215155220.png)
 
-
 ![](Screenshots/Pasted%20image%2020251215155627.png)
+
+![](Screenshots/Pasted%20image%2020251215155751.png)
+
+
+---
+
+
+
