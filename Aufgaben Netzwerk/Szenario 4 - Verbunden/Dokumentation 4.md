@@ -22,3 +22,35 @@ Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung
 ---
 ---
 # Switch Konfig
+
+
+## Namen ändern
+![](Screenshots/Pasted%20image%2020251215145537.png)
+
+
+---
+## Banner erstellen
+![](Screenshots/Pasted%20image%2020251215145623.png)
+
+**Banner Vorlage:**
+```cisco
++-------------------------+
+| Finger weg!             |
++-------------------------+
+```
+
+
+---
+## VTY-Access
+![](Screenshots/Pasted%20image%2020251215145655.png)
+
+
+---
+
+
+
+
+
+
+
+
