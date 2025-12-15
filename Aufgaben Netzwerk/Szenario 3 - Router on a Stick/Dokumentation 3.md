@@ -14,7 +14,7 @@ Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung
 | ---------- | ---------- | ------------------------------------------------------ | --------------------------------------------------------- |
 | Windows PC | *TLABPC01* | *172.21.1.10*                                          | -                                                         |
 | Linux PC   | *TLABPC02* | *172.21.2.10*                                          | -                                                         |
-| Router     | *TLABr08*  | **FA0/0:** *172.21.1.1*<br>                            | TLABs05                                                   |
+| Router     | *TLABr08*  | **FA0/0.1:** *172.21.1.1*<br>**FA0/0.2:** *172.21.2.1* | TLABs05 (VLAN 10)<br>TLABs05 (VLAN 20)                    |
 | Switch     | TLABs05    | **FA1/0/1:** -<br>**FA1/0/2:** -<br>**FA1/0/3:** -<br> | TLABr08 TRUNK<br>TLABPC01 (VLAN 10)<br>TLABPC02 (VLAN 20) |
 
 
@@ -41,11 +41,11 @@ Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung
 
 ---
 ## VLAN's erstellen
-
+Im Konfigurationsmodus mittels `vlan X` ein neues Vlan erstellen:
 ![](Screenshots/Pasted%20image%2020251211164125.png)
 
+Mittels `name X` einen Namen setzen:
 ![](Screenshots/Pasted%20image%2020251211164136.png)
-
 
 
 
