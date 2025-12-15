@@ -51,28 +51,34 @@ Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung
 
 ---
 ## Dummy VLAN erstellen
-
+Mittels `vlan X` ein neues Vlan erstellen und den Namen auf "dummy" setzen:
 ![](Screenshots/Pasted%20image%2020251211140923.png)
 
+Danach mittels `interface range faX/X/X - X` die nicht genutzten Ports auswählen:
 ![](Screenshots/Pasted%20image%2020251211141013.png)
 
+den Port-mode auf "access" setzen:
 ![](Screenshots/Pasted%20image%2020251211141046.png)
 
+die Ports mittels `switchport access vlan X` in das dummy-Vlan:
 ![](Screenshots/Pasted%20image%2020251211141113.png)
 
+Die Ports mittels `shutdown` ausschalten:
 ![](Screenshots/Pasted%20image%2020251211141138.png)
 
-
+die Gigabit-Ports müssen auch noch in das Dummy Vlan integriert werden:
 ![](Screenshots/Pasted%20image%2020251211141332.png)
 
 
 ---
 ## VTY-Access
-
+mittels `interface vlan10` in das interface "vlan10" wechseln:
 ![](Screenshots/Pasted%20image%2020251211172445.png)
 
+mittels `ip address x.x.x.x x.x.x.x` eine neue IP setzen:
 ![](Screenshots/Pasted%20image%2020251211172501.png)
 
+Den default-gateway mittels `ip default gateway x.x.x.x` auf den Router setzen:
 ![](Screenshots/Pasted%20image%2020251211172636.png)
 
 
@@ -81,14 +87,17 @@ Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung
 # Router Konfiguration
 
 ## Interface
-
+via `interface faX/X` in das gewünschte interface wechseln, mittels`no ip address` die IP-löschen und `no shutdown aktivierren`. 
 ![](Screenshots/Pasted%20image%2020251211164933.png)
 
-
+nun mittels via `interface faX/X.X0` das gewünschte sub-interface anlegen:
 ![](Screenshots/Pasted%20image%2020251211165049.png)
 
+Das sub-interface dem gewünschten Vlan zuweisen:
 ![](Screenshots/Pasted%20image%2020251211165103.png)
 
+mittels `ip address x.x.x.x x.x.x.x` eine neue IP setzen:
 ![](Screenshots/Pasted%20image%2020251211165152.png)
 
+Das ganze noch für das zweite sub-interface erstellen:
 ![](Screenshots/Pasted%20image%2020251211165249.png)
