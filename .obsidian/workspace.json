@@ -49,8 +49,7 @@
               "title": "Dokumentation 3"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -223,11 +222,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "95e0afba6f97036f",
+  "active": "ad8e9965c4460ac3",
   "lastOpenFiles": [
+    "Aufgaben Netzwerk/Szenario 2 - DirectConnect VLAN/Dokumentation 2.md",
     "Aufgaben Netzwerk/Szenario 3 - Router on a Stick/Dokumentation 3.md",
     "Aufgaben Netzwerk/Szenario 1 - DirectConnect/Dokumentation 1.md",
-    "Aufgaben Netzwerk/Szenario 2 - DirectConnect VLAN/Dokumentation 2.md",
     "Aufgaben Netzwerk/Szenario 3 - Router on a Stick/Screenshots/Pasted image 20251215095901.png",
     "Aufgaben Netzwerk/Szenario 3 - Router on a Stick/Screenshots/Pasted image 20251215095421.png",
     "Aufgaben Netzwerk/Szenario 3 - Router on a Stick/Screenshots/Pasted image 20251215084742.jpg",
