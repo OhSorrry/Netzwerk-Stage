@@ -37,6 +37,15 @@ Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung
 ## Dummy VLAN erstellen
 
 
+---
+## IP-route
+![](Screenshots/Pasted%20image%2020251217095323.png)
+
+
+---
+## Show ip route
+![](Screenshots/Pasted%20image%2020251217095555.png)
+
 
 ---
 ---
@@ -56,6 +65,3 @@ Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung
 
 ---
 ---
-
-## IP-route
-![](Screenshots/Pasted%20image%2020251217095323.png)
