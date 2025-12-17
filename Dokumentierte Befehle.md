@@ -5,7 +5,7 @@ no ip domain-lookup
 ```
 ---
 ```cisco
-hostname TLABr07
+hostname TLABr08
 ```
 ---
 ```cisco
@@ -17,7 +17,11 @@ end
 ---
 ```cisco
 conf t
-banner motd #Finger weg!#
+banner #
++-------------------------+
+|    Zugang verboten!     |
++-------------------------+
+#
 ```
 ---
 ```cisco
@@ -36,6 +40,9 @@ ip address 172.21.1.1 255.255.255.0
 no shutdown
 end
 ```
+
+---
+---
 
 # Grundkonfiguration Switch
 ```cisco
@@ -58,6 +65,9 @@ end
 conf t
 banner motd #Finger weg!#
 ```
+
+---
+---
 
 # Router on a Stick (Szenario 4)
 ## Switch
