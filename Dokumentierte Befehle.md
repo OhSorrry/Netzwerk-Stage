@@ -176,3 +176,5 @@ Zwischenkontrolle:
 ```cisco
 show ip interface brief
 ```
+
+
