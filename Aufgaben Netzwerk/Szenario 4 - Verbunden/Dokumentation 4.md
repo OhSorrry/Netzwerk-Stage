@@ -48,6 +48,15 @@ Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung
 
 
 ---
+## ACL einrichten
+![](Screenshots/Pasted%20image%2020251217105405.png)
+
+
+
+
+
+
+---
 ---
 # Router Konfig
 
