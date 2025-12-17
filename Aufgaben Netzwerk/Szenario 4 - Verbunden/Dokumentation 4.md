@@ -3,6 +3,8 @@
 ## Auftrag
 Bei dieser Aufgabe ging es darum ein Netzwerk Aufbauen das der unteren Zeichnung entspricht. 
 
+![](Screenshots/Pasted%20image%2020251217120006.jpg)
+
 
 ## Adresstabelle
 
