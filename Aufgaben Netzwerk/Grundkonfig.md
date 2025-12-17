@@ -1,4 +1,5 @@
 # Grundkonfiguration Router
+
 ```cisco
 conf t
 no ip domain-lookup
@@ -162,7 +163,10 @@ Zwischenkontrolle:
 ```cisco
 show ip interface brief
 ```
+
 ---
+---
+
 ## Router
 ```cisco
 conf t
