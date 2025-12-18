@@ -187,7 +187,7 @@ interface fa 0/0.20
 no shutdown
 description TLABs05 (VLAN 20) 
 encapsulation dot1Q 20
-ip address 172.21.6.1 255.255.255.0
+ip address 172.21.5.1 255.255.255.0
 end
 ```
 Zwischenkontrolle:
