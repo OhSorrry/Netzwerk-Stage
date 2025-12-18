@@ -136,14 +136,14 @@ show interface trunk
 ```cisco
 conf t
 interface fa1/0/2
-description TLABPC04 (VLAN 30)
+description TLABPC01 (VLAN 10)
 switchport mode access
-switchport access vlan 30
+switchport access vlan 10
 exit
 interface fa1/0/3
-description TLABPC03 (VLAN 40)
+description TLABPC02 (VLAN 20)
 switchport mode access
-switchport access vlan 40
+switchport access vlan 20
 end
 ```
 ---
@@ -158,8 +158,8 @@ show interface status
 ---
 ```cisco
 conf t
-interface vlan30
-ip address 172.21.4.100 255.255.255.0
+interface vlan10
+ip address 172.21.1.100 255.255.255.0
 no shutdown
 exit
 ```
