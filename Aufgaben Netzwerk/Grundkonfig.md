@@ -179,14 +179,14 @@ no shutdown
 exit
 interface fa 0/0.10
 no shutdown
-description TLABs06 (VLAN 30) 
-encapsulation dot1Q 30
-ip address 172.21.4.1 255.255.255.0
+description TLABs05 (VLAN 10) 
+encapsulation dot1Q 10
+ip address 172.21.3.1 255.255.255.0
 exit
 interface fa 0/0.20
 no shutdown
-description TLABs06 (VLAN 40) 
-encapsulation dot1Q 40
+description TLABs05 (VLAN 20) 
+encapsulation dot1Q 20
 ip address 172.21.6.1 255.255.255.0
 end
 ```
