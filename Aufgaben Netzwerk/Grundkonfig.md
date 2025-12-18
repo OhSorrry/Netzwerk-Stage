@@ -52,7 +52,7 @@ no ip domain-lookup
 ```
 ---
 ```cisco
-hostname TLABs06
+hostname TLABs05
 ```
 ---
 ```cisco
@@ -64,7 +64,11 @@ end
 ---
 ```cisco
 conf t
-banner motd #Finger weg!#
+banner #
++-------------------------+
+|    Zugang verboten!     |
++-------------------------+
+#
 ```
 
 ---
@@ -88,7 +92,7 @@ end
 ```cisco
 conf t
 interface range FA1/0/4 - 48
-description Dummy-VLAN
+description unbenutzt
 switchport mode access
 switchport access vlan 999
 shutdown
@@ -98,7 +102,7 @@ exit
 ```cisco
 conf t
 interface range Gi1/0/1 - 4
-description Dummy-VLAN
+description unbenutzt
 switchport mode access
 switchport access vlan 999
 shutdown
