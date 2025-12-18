@@ -78,10 +78,10 @@ banner #
 ## Switch
 ```cisco
 conf t
-vlan 30
+vlan 10
 name WIN-VLAN
 exit
-vlan 40
+vlan 20
 name LIN-VLAN
 exit
 vlan 999
@@ -121,10 +121,10 @@ show interface status
 ```cisco
 conf t
 interface fa1/0/1
-description TLABr07 TRUNK
+description TLABr08 TRUNK
 switchport mode trunk
 switchport trunk encapsulation dot1q
-switchport trunk allowed vlan 30,40
+switchport trunk allowed vlan 10,20
 end
 ```
 ---
