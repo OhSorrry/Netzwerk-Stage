@@ -1,9 +1,9 @@
 # Einleitung
 
 ## Auftrag
-In dieser Aufgabe mussten wir das gesamte Netzwerk vom Szenario 4 ins Cisco Packet Tracker übertragen. Da die beide Router mit einem statischen Route verbunden sind, und das nicht sehr praktisch ist, gab uns Marcel den Auftrag, dass wir ein dynamisches Routing Protokoll verwenden sollten. Nach einer kurzen Recherche haben wir herausgefunden welche 2 Protokolle wir verwenden. Noé verwendet das OSPF (Open Shortest Path First) und ich das EIGRP (Enhanced Interior Gateway Routing Protocol).
-Zur Erinnerung nochmals:
+In dieser Aufgabe mussten wir das gesamte Netzwerk vom Szenario 4 ins Cisco Packet Tracker übertragen. Da die beide Router mit einem statischen Route verbunden sind, und das nicht sehr praktisch ist, gab uns Marcel den Auftrag, dass wir ein dynamisches Routing Protokoll verwenden sollten. Nach einer kurzen Recherche haben wir herausgefunden welche 2 Protokolle wir verwenden. Ich verwende das OSPF (Open Shortest Path First) und Kevin das EIGRP (Enhanced Interior Gateway Routing Protocol).
 
+Unsere Zeichnung aus der letzten Aufgabe:
 ![](Screenshots/Pasted%20image%2020251217120006.jpg)
 
 ![](Screenshots/Pasted%20image%2020260107133048.png)
