@@ -196,3 +196,21 @@ show ip interface brief
 ```
 
 
+```cisco
+conf t
+interface gi 0/0/0
+no shutdown
+exit
+interface gi 0/0/0.10
+no shutdown
+description TLABs05 (VLAN 10) 
+encapsulation dot1Q 10
+ip address 172.21.3.1 255.255.255.0
+exit
+interface gi 0/0/0.20
+no shutdown
+description TLABs05 (VLAN 20) 
+encapsulation dot1Q 20
+ip address 172.21.5.1 255.255.255.0
+end
+```
