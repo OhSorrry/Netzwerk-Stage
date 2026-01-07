@@ -22,14 +22,27 @@ Unsere Zeichnung aus der letzten Aufgabe:
 | Router (Kevin)     | *TLABr07*  | **FA0/0.1:** *172.21.4.1*<br>**FA0/0.2:** *172.21.6.1*<br>**FA0/1:** *172.21.1.2* | TLABs06 (VLAN 30)<br>TLABs06 (VLAN 40)<br>TLABr08         |
 | Switch (Kevin)     | *TLABs06*  | **FA1/0/1:** -<br>**FA1/0/2:** -<br>**FA1/0/3:** -<br>                            | TLABr07 TRUNK<br>TLABPC04 (VLAN 30)<br>TLABPC03 (VLAN 40) |
 
-
+---
 ---
 
+## Konfiguration Router
+
 
 
 
 
 ---
+---
+
+## Kofinguraion Switch
+
+
+
+
+
+---
+---
+
 ## OSPF einrichten
 
 Auf tlabr08:
