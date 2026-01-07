@@ -196,7 +196,45 @@ show ip interface brief
 ```
 
 
-```cisco
+
+
+
+
+Switch:
+
+conf t
+vlan 10
+name WIN-VLAN
+exit
+vlan 20
+name LIN-VLAN
+exit
+
+conf t
+interface fa 0/1
+description TLABr08 TRUNK
+switchport mode trunk
+switchport trunk encapsulation dot1q
+switchport trunk allowed vlan 10,20
+end
+
+conf t
+interface fa0/2
+description TLABPC01 (VLAN 10)
+switchport mode access
+switchport access vlan 10
+exit
+interface fa0/3
+description TLABPC02 (VLAN 20)
+switchport mode access
+switchport access vlan 20
+end
+
+
+
+
+Router:
+
 conf t
 interface gi 0/0/0
 no shutdown
@@ -213,4 +251,3 @@ description TLABs05 (VLAN 20)
 encapsulation dot1Q 20
 ip address 172.21.5.1 255.255.255.0
 end
-```
