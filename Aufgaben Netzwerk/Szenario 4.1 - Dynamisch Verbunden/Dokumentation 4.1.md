@@ -3,10 +3,12 @@
 ## Auftrag
 In dieser Aufgabe mussten wir das gesamte Netzwerk vom Szenario 4 ins Cisco Packet Tracker übertragen. Da die beide Router mit einem statischen Route verbunden sind, und das nicht sehr praktisch ist, gab uns Marcel den Auftrag, dass wir ein dynamisches Routing Protokoll verwenden sollten. Nach einer kurzen Recherche haben wir herausgefunden welche 2 Protokolle wir verwenden. Ich verwende das OSPF (Open Shortest Path First) und Kevin das EIGRP (Enhanced Interior Gateway Routing Protocol).
 
-Unsere Zeichnung aus der letzten Aufgabe:
+**Unsere Zeichnung aus der letzten Aufgabe:**
 ![](Screenshots/Pasted%20image%2020251217120006.jpg)
 
-![](Screenshots/Pasted%20image%2020260107133048.png)
+
+**Modell in Cisco:**
+![](Screenshots/Pasted%20image%2020260107154126.png)
 
 
 ## Adresstabelle
@@ -27,18 +29,98 @@ Unsere Zeichnung aus der letzten Aufgabe:
 
 ## Konfiguration Router
 
+```cisco
+conf t
+interface fa 0/0
+no shutdown
+exit
+interface fa 0/0.10
+no shutdown
+description TLABs05 (VLAN 10) 
+encapsulation dot1Q 10
+ip address 172.21.3.1 255.255.255.0
+exit
+interface fa 0/0.20
+no shutdown
+description TLABs05 (VLAN 20) 
+encapsulation dot1Q 20
+ip address 172.21.5.1 255.255.255.0
+end
+```
 
-
-
-
+Zwischenkontrolle:
+```cisco
+show ip interface brief
+```
 ---
 ---
 
 ## Kofinguraion Switch
 
-
-
-
+```cisco
+conf t
+vlan 10
+name WIN-VLAN
+exit
+vlan 20
+name LIN-VLAN
+exit
+vlan 999
+name Dummy-VLAN
+end
+```
+---
+```cisco
+conf t
+interface range FA1/0/4 - 48
+description unbenutzt
+switchport mode access
+switchport access vlan 999
+shutdown
+exit
+```
+---
+```cisco
+conf t
+interface range Gi1/0/1 - 4
+description unbenutzt
+switchport mode access
+switchport access vlan 999
+shutdown
+end
+```
+---
+```cisco
+conf t
+interface fa1/0/1
+description TLABr08 TRUNK
+switchport mode trunk
+switchport trunk encapsulation dot1q
+switchport trunk allowed vlan 10,20
+end
+```
+---
+```cisco
+conf t
+interface fa1/0/2
+description TLABPC01 (VLAN 10)
+switchport mode access
+switchport access vlan 10
+exit
+interface fa1/0/3
+description TLABPC02 (VLAN 20)
+switchport mode access
+switchport access vlan 20
+end
+```
+---
+```cisco
+conf t
+interface vlan10
+ip address 172.21.1.100 255.255.255.0
+no shutdown
+exit
+```
 
 ---
 ---

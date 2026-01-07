@@ -195,3 +195,6 @@ Zwischenkontrolle:
 show ip interface brief
 ```
 
+
+
+
