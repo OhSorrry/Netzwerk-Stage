@@ -25,3 +25,19 @@ Unsere Zeichnung aus der letzten Aufgabe:
 
 ---
 
+
+
+
+
+---
+## OSPF einrichten
+
+Auf tlabr08:
+![](Screenshots/Pasted%20image%2020260107150954.png)
+
+![](Screenshots/Pasted%20image%2020260107151007.png)
+
+
+auf tlabr07:
+
+
