@@ -144,6 +144,9 @@ tlabr07:
 
 ![](Screenshots/Pasted%20image%2020260108093926.png)
 
+![](Screenshots/Pasted%20image%2020260108133540.png)
+
+
 
 auf tlabr08:
 ![](Screenshots/Pasted%20image%2020260108094056.png)
