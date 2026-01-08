@@ -127,22 +127,19 @@ exit
 
 ## OSPF einrichten
 
-Auf ospf:
-![](Screenshots/Pasted%20image%2020260107150954.png)
 
-Adressen der unterliegenden Vlans zufügen:
-![](Screenshots/Pasted%20image%2020260107151007.png)
-
-auf tlabr07:
-![](Screenshots/Pasted%20image%2020260107151148.png)
-
-
-
-
-tlabr07:
+Auf tlabr07 
 ![](Screenshots/Pasted%20image%2020260108093913.png)
 
+
 ![](Screenshots/Pasted%20image%2020260108093926.png)
+
+Auf ospf zugreiffen:
+![](Screenshots/Pasted%20image%2020260107150954.png)
+
+
+![](Screenshots/Pasted%20image%2020260107151148.png)
+
 
 ![](Screenshots/Pasted%20image%2020260108133540.png)
 
@@ -151,7 +148,15 @@ tlabr07:
 auf tlabr08:
 ![](Screenshots/Pasted%20image%2020260108094056.png)
 
+
 ![](Screenshots/Pasted%20image%2020260108094108.png)
+
+Auf ospf zugreiffen:
+![](Screenshots/Pasted%20image%2020260107150954.png)
+
+
+![](Screenshots/Pasted%20image%2020260107151007.png)
+
 
 ![](Screenshots/Pasted%20image%2020260108133927.png)
 
