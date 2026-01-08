@@ -127,12 +127,61 @@ exit
 
 ## OSPF einrichten
 
-Auf tlabr08:
+Auf ospf:
 ![](Screenshots/Pasted%20image%2020260107150954.png)
 
+Adressen der unterliegenden Vlans zufügen:
 ![](Screenshots/Pasted%20image%2020260107151007.png)
-
 
 auf tlabr07:
 ![](Screenshots/Pasted%20image%2020260107151148.png)
+
+
+---
+---
+# OSPF
+
+##  Wie werden OSPF-Nachbarn gebildet?
+
+**Grundvoraussetzungen**
+
+- Gleiche **Area-ID** 
+- Gleiche **Subnetzmaske** auf der Verbindung.
+- Gleiche **Hello- und Dead-Timer**.
+- Gleiche **Authentication** (habe ich nicht konfiguriert).
+- Interfaces müssen beide **up** sein.
+
+**Aufbau**
+
+- OSPF sendet **Hello-Pakete** auf jedem Interface, das im network-Befehl enthalten ist.
+- Wenn zwei Router die Bedingungen erfüllen, werden sie **Neighbors**.
+- Danach tauschen sie **LSAs (Link-State Advertisements)** aus, um die Topologie zu kennenlernen.
+
+
+**Wie werden Routing-Infos ausgetauscht?**
+
+- OSPF baut eine **Link-State-Datenbank (LSDB)** auf.
+- Jeder Router kennt die gesamte Topologie der Area.
+- Mit dem **Dijkstra-Algorithmus** berechnet OSPF den kürzesten Pfad.
+- Updates sind **inkrementell** (nur bei Änderungen).
+
+
+**Kommunikation**
+
+- Hello-Pakete → Nachbarschaft.
+- **Database Description (DBD)** → Überblick über LSDB.
+- **LSA Updates** - Details über Links.
+- Multicast-Adressen:
+    - 224.0.0.5 → Alle OSPF-Router.
+    - 224.0.0.6 → Designated Router (DR) und Backup DR.
+
+---
+## Befehle zum Prüfen
+
+`show ip ospf neighbor` --> zeigt Nachbarn und Status.
+`show ip route` --> Routen mit **O** (OSPF).
+`debug ip ospf adj` --> zeigt Nachbarschaftsbildung.
+
+
+
 
