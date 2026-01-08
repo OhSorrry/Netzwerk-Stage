@@ -137,6 +137,24 @@ auf tlabr07:
 ![](Screenshots/Pasted%20image%2020260107151148.png)
 
 
+
+
+tlabr07:
+![](Screenshots/Pasted%20image%2020260108093913.png)
+
+![](Screenshots/Pasted%20image%2020260108093926.png)
+
+
+auf tlabr08:
+![](Screenshots/Pasted%20image%2020260108094056.png)
+
+![](Screenshots/Pasted%20image%2020260108094108.png)
+
+
+
+config löschen:
+![](Screenshots/Pasted%20image%2020260108094008.png)
+
 ---
 ---
 # OSPF
