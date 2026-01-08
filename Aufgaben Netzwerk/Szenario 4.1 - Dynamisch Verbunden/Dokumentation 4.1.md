@@ -168,8 +168,8 @@ auf tlabr07:
 
 **Kommunikation**
 
-- Hello-Pakete → Nachbarschaft.
-- **Database Description (DBD)** → Überblick über LSDB.
+- Hello-Pakete - Nachbarschaft.
+- **Database Description (DBD)** - Überblick über LSDB.
 - **LSA Updates** - Details über Links.
 - Multicast-Adressen:
     - 224.0.0.5 → Alle OSPF-Router.
