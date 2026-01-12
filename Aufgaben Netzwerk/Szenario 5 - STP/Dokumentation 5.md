@@ -56,33 +56,6 @@ transport input telnet
 end
 ```
 ---
-VLANS:
-```cisco
-conf t
-vlan 10
-name MGMT-VLAN
-exit
-vlan 20
-name LIN-VLAN
-exit
-vlan 30
-name WIN-VLAN
-exit
-vlan 999
-name Dummy-VLAN
-end
-```
----
-```cisco
-conf t
-interface FA0/1 
-description unbenutzt
-switchport mode access
-switchport access vlan 999
-shutdown
-exit
-```
----
 Interface IP-Adressen
 ```cisco
 conf t
