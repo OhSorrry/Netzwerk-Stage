@@ -109,7 +109,7 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
 **9. Paket erstellen**
 
 - TLABPC02 kennt MAC von 172.21.5.1 aus der ersten ARP bereits
-- Erstellt ein Paket und schikt dieses an
+- Erstellt ein Paket und schickt dieses an Switch:
 
 | Info:          | Adresse:      |
 | -------------- | ------------- |
@@ -120,19 +120,15 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
 
 ---
 
-**10. Switch leitet Frame**
+**10. Switch leitet Paket weiter**
 
-- Switch kennt MAC von Router 1 → leitet direkt an den richtigen Port.
+- Switch kennt MAC von TLABr08 - leitet direkt weiter
 
 ---
 
-**11. Router 1 empfängt Paket**
+**11. TLABr08 empfängt Paket**
 
-- Routing-Tabelle ist vollständig (EIGRP läuft).
-- Zielnetz [172.21.4.0/24](http://172.21.4.0/24) → Next-Hop = Router 2 (172.21.1.2).
-- Prüft ARP für Router 2:
-    - Kennt MAC von 172.21.1.2 (vom ersten Ping) → **kein ARP nötig**.
-- Sendet Paket an Router 2.
+- Da dieser schon den 
 
 ---
 
