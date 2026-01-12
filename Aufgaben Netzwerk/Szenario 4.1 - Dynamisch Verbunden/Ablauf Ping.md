@@ -52,11 +52,12 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
 
 - TLABPC04 erstellt ein Ping-Paket:
 
-| Ziel IP:       | 172.21.5.10   |     |
-| -------------- | ------------- | --- |
-| **Quell IP:**  | *172.21.4.10* |     |
-| **Ziel MAC:**  |               |     |
-| **Quell MAC:** |               |     |
+| Info:          | Adresse:      |
+| -------------- | ------------- |
+| **Ziel IP:**   | *172.21.5.10* |
+| **Quell IP:**  | *172.21.4.10* |
+| **Ziel MAC:**  | TLABr08       |
+| **Quell MAC:** |               |
 
 - → Ziel: 172.21.5.x.
 - Ethernet-Frame: Ziel-MAC = Router 2, Quell-MAC = PC04.
