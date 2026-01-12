@@ -42,7 +42,7 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
 - TLABPC04 kennt die MAC vom Gateway nicht
 - Sendet ARP-Request an den Switch mittels Broadcast: Wer kennt die IP 172.21.4.1?
 - Switch empfängt Broadcast und leitet ihn an alle Ports im VLAN 30 weiter
-- TLABr08 antwortet mit ARP-Reply: Ich bin 172.21.4.1 und meine MAC ist XY.
+- TLABr07 antwortet mit ARP-Reply: Ich bin 172.21.4.1 und meine MAC ist XY.
 - Dies wird über den Switch wieder an den TLABPC04 geleitet
 - der PC Speichert die MAC dann in seinem ARP Cache
 
@@ -56,7 +56,7 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
 | -------------- | ------------- |
 | **Ziel IP:**   | *172.21.5.10* |
 | **Quell IP:**  | *172.21.4.10* |
-| **Ziel MAC:**  | (TLABr08)     |
+| **Ziel MAC:**  | (TLABr07)     |
 | **Quell MAC:** | (TLABPC04)    |
 - TLABPC04 schickt Paket an Switch
 - Switch leitet Paket an TLABr08 weiter, kennt ihn durch die ARP bereits und hat die Adresse in der MAC-Tabelle 
@@ -109,14 +109,14 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
 **9. Paket erstellen**
 
 - TLABPC02 kennt MAC von 172.21.5.1 aus der ersten ARP bereits
-- Erstellt ICMP Echo Request → Ethernet-Frame an Router 1.
+- Erstellt ein Paket und schikt dieses an
 
 | Info:          | Adresse:      |
 | -------------- | ------------- |
 | **Ziel IP:**   | *172.21.4.10* |
-| **Quell IP:**  | *172.21.4.10* |
+| **Quell IP:**  | *172.21.5.10* |
 | **Ziel MAC:**  | (TLABr08)     |
-| **Quell MAC:** | (TLABPC04)    |
+| **Quell MAC:** | (TLABPC02)    |
 
 ---
 
