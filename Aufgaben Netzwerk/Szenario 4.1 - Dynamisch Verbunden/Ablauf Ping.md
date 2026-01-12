@@ -70,12 +70,8 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
     - Kennt VLAN 10 und VLAN 20 noch nicht, weil er noch nicht OSPF Nachbarn mit TLABr07 is
 - TLABr08 sendet "**OSPF Hello**" an 224.0.0.10 auf Gi0/0/1.
 
-|     |     |
-| --- | --- |
-|     |     |
-
-- TLABr07 empfängt Hello, er antwortet **Nachbarschaft entsteht**.
-- Beide tauschen Routing-Informationen (Update-Pakete).
+- TLABr07 empfängt Hello, er antwortet TLABr08 und eine Nachbarschaft entsteht
+- Beide tauschen Routing-Informationen, Update-Pakete aus
 - Router 2 lernt: „[172.21.5.0/24](http://172.21.5.0/24) erreichbar über Router 1.“
 
 ---
