@@ -48,7 +48,7 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
 
 ---
 
- **3. PC04 sendet ICMP Ping**
+ **3. PC04 sendet Ping**
 
 - TLABPC04 erstellt ein Ping-Paket:
 
@@ -60,16 +60,17 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
 | **Quell MAC:** | (TLABPC04)    |
 - TLABPC04 schickt Paket an Switch
 - Switch leitet Paket an TLABr08 weiter, kennt ihn durch die ARP bereits und hat die Adresse in der MAC-Tabelle 
+
 ---
 
- **4. Router 2 empfängt Paket**
+ **4. OSPF Nachbarschaft aufbauen**
 
-- Router 2 prüft Routing-Tabelle:
-    - Kennt VLAN 30 (direkt verbunden).
-    - Kennt VLAN 40 (direkt verbunden).
-    - **Kennt VLAN 20 noch nicht**, weil EIGRP-Nachbarschaft fehlt.
-- Router 2 sendet **EIGRP Hello** an 224.0.0.10 auf Gi0/0/1.
-- Router 1 empfängt Hello, antwortet → **Nachbarschaft entsteht**.
+- TLABr08 prüft Routing-Tabelle:
+    - Kennt VLAN 30 und VLAN 40 da sie direkt verbunden sind
+    - Kennt VLAN 10 und VLAN 20 noch nicht, weil er noch nicht OSPF Nachbarn mit TLABr07 is
+- TLABr08 sendet "**OSPF Hello**" an 224.0.0.10 auf Gi0/0/1.
+	- 
+- TLABr07 empfängt Hello, er antwortet **Nachbarschaft entsteht**.
 - Beide tauschen Routing-Informationen (Update-Pakete).
 - Router 2 lernt: „[172.21.5.0/24](http://172.21.5.0/24) erreichbar über Router 1.“
 
