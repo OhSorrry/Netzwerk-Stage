@@ -65,7 +65,7 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
 
  **4. TLABr08 forwardet Paket an TLABr07**
 
-- Router 2 wählt Next-Hop = 172.21.1.1 (Router 1).
+- TLABr08 wählt Next-Hop = 172.21.1.1 (Router 1).
 - Prüft ARP für [172.21.1.1](http://172.21.1.1/):
     - Falls unbekannt → ARP-Request auf Gi0/0/1.
     - Router 1 antwortet mit MAC.
@@ -82,6 +82,13 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
     - Falls unbekannt → ARP-Request ins VLAN 20.
     - PC02 antwortet mit MAC.
 - Router 1 sendet ICMP-Paket an PC02.
+
+---
+
+ **6. ARP**
+
+
+
 
 ---
 
