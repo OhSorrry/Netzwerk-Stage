@@ -98,28 +98,28 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
 
 ---
 
-**8. PC02 prüft Ziel-IP**
+**8. TLABPC02 prüft Ziel-IP**
 
-- Ziel: 172.21.4.x (PC04).
-- Prüft: Liegt im eigenen Subnetz (172.21.5.0/24)?  
-    → Nein → sendet an Default Gateway (172.21.5.1).
+- Ziel: 172.21.4.10 - TLABPC04.
+- Prüft: Liegt im eigenen Subnetz 172.21.5.0/24?  
+    Nein sendet an Default Gateway (172.21.5.1).
 
 ---
 
-**2. ARP für Gateway?**
+**9. ARP für Gateway?**
 
 - PC02 kennt MAC von 172.21.5.1 (vom ersten Ping) → **kein ARP nötig**.
 - Erstellt ICMP Echo Request → Ethernet-Frame an Router 1.
 
 ---
 
-**3. Switch leitet Frame**
+**10. Switch leitet Frame**
 
 - Switch kennt MAC von Router 1 → leitet direkt an den richtigen Port.
 
 ---
 
-**4. Router 1 empfängt Paket**
+**11. Router 1 empfängt Paket**
 
 - Routing-Tabelle ist vollständig (EIGRP läuft).
 - Zielnetz [172.21.4.0/24](http://172.21.4.0/24) → Next-Hop = Router 2 (172.21.1.2).
@@ -127,14 +127,18 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
     - Kennt MAC von 172.21.1.2 (vom ersten Ping) → **kein ARP nötig**.
 - Sendet Paket an Router 2.
 
-**5. Router 2 empfängt Paket**
+---
+
+**12. Router 2 empfängt Paket**
 
 - Zielnetz [172.21.4.0/24](http://172.21.4.0/24) → direkt verbunden (VLAN 30).
 - Prüft ARP für PC04:
     - Kennt MAC von PC04 (vom ersten Ping) → **kein ARP nötig**.
 - Sendet ICMP Echo Request an PC04.
 
-**6. PC04 empfängt Ping**
+---
+
+**13. PC04 empfängt Ping**
 
 - Antwortet mit ICMP Echo Reply.
 - Rückweg identisch, alles gecached → **sehr schnell**.
