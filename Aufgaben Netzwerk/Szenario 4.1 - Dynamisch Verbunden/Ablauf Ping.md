@@ -135,22 +135,13 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
 **12. TLABr07 empfängt Paket**
 
 - Zielnetz 172.21.4.0/24 das Netz ist direkt verbunden (VLAN 30).
-- Sendet Paket  an PC04.
+- Adressen und Wege vom ersten Ping bereits bekannt
+- Sendet Paket weiter an Switch 
 
 ---
 
-**13. PC04 empfängt Ping**
+**13. TLABPC04 empfängt Ping**
 
-- Antwortet mit ICMP Echo Reply.
-- Rückweg identisch, alles gecached → **sehr schnell**.
+- Ping ist nun wieder zurück angekommen und wird als erfolgreich in der Konsole angezeigt
 
 ---
-
-
-
- **Unterschiede zum ersten Ping:**
-
-- **Keine ARP-Broadcasts mehr** → alles im Cache.
-- **Keine EIGRP-Nachbarschaftsbildung mehr** → Routing steht.
-- Switches nutzen ihre MAC-Tabellen → kein Flooding.
-- Kommunikation ist **direkt und effizient**
