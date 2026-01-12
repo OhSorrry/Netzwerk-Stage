@@ -29,7 +29,7 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
 
 ---
 
- **1. TLABPC04 prüft Ziel-IP**
+**1. TLABPC04 prüft Ziel-IP**
 
 - TLABPC04 will 172.21.5.10 pingen
 - Prüft: Liegt Ziel-IP im eigenen Subnetz 172.21.4.0/24?  
@@ -37,7 +37,7 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
 
 ---
 
- **2. ARP für Gateway**
+**2. ARP für Gateway**
 
 - TLABPC04 kennt die MAC vom Gateway nicht
 - Sendet ARP-Request an den Switch mittels Broadcast: Wer kennt die IP 172.21.4.1?
@@ -48,7 +48,7 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
 
 ---
 
- **3. PC04 sendet Ping**
+**3. PC04 sendet Ping**
 
 - TLABPC04 erstellt ein Ping-Paket:
 
@@ -63,7 +63,7 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
 
 ---
 
- **4. TLABr07 schickt Paket an TLABr08**
+**4. TLABr07 schickt Paket an TLABr08**
 
 - TLABr07 wählt Next-Hop und findet 172.21.1.1 - TLABr08
 - Prüft MAC für 172.21.1.1
@@ -73,7 +73,7 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
 
 ---
 
- **5. TLABr08 empfängt Paket**
+**5. TLABr08 empfängt Paket**
 
 - TLABr08 prüft Routing-Tabelle:
 - Ziel-IP = 172.21.5.10 - liegt in VLAN 20.
@@ -85,51 +85,39 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
 
 ---
 
- **6. Weiterleitung über Switch**
+**6. Weiterleitung über Switch**
 
 - TLABr08 sendet Paket an den Switch
 - Switch sendet Paket an TLABPC02 - kennt in bereits durch ARP
 
 ---
 
- **7. TLABPC02 empfängt Ping**
+**7. TLABPC02 empfängt Ping**
 
-- Ping ist nun am Ziel - Es erfolgt der Rückweg
-
----
-
-
-
-
-
-**Ablauf: PC02 (VLAN 20)** **→** **PC04 (VLAN 30)**
-
-**Ausgangslage**
-
-- PC02 kennt seinen Gateway (172.21.5.1) MAC-Adresse (vom ersten Ping).
-- Switch kennt MAC von PC02 und Router 1.
-- Router 1 kennt Router 2 (EIGRP-Nachbarschaft steht).
-- Router 2 kennt VLAN 30 und VLAN 40 Netze.
-- PC04 kennt seinen Gateway (172.21.4.1) MAC-Adresse.
+- Ping ist nun am Ziel - Es erfolgt der Rückweg mittels Reply
 
 ---
 
- **Schritt-für-Schritt:**
-
-**1. PC02 prüft Ziel-IP**
+**8. PC02 prüft Ziel-IP**
 
 - Ziel: 172.21.4.x (PC04).
-- Prüft: Liegt im eigenen Subnetz ([172.21.5.0/24](http://172.21.5.0/24))?  
+- Prüft: Liegt im eigenen Subnetz (172.21.5.0/24)?  
     → Nein → sendet an Default Gateway (172.21.5.1).
+
+---
 
 **2. ARP für Gateway?**
 
 - PC02 kennt MAC von 172.21.5.1 (vom ersten Ping) → **kein ARP nötig**.
 - Erstellt ICMP Echo Request → Ethernet-Frame an Router 1.
 
+---
+
 **3. Switch leitet Frame**
 
 - Switch kennt MAC von Router 1 → leitet direkt an den richtigen Port.
+
+---
 
 **4. Router 1 empfängt Paket**
 
