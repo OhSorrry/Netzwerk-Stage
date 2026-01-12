@@ -94,10 +94,9 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
 
  **7. TLABPC02 empfängt Ping**
 
-- TLABPC02 antwortet mit einer Reply
+- Ping ist nun am Ziel - Es erfolgt der Rückweg
 
 ---
-
 
 
 
