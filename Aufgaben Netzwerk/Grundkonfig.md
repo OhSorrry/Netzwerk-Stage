@@ -254,15 +254,15 @@ end
 ```cisco
 conf t
 interface fa 0/0.10
-interface description MGMT
+description MGMT
 no shutdown
 exit
 interface fa 0/0.20
-interface description LIN
+description LIN
 no shutdown
 exit
 interface fa 0/0.30
-Interface description WIN
+description WIN
 no shutdown
 exit
 ```
