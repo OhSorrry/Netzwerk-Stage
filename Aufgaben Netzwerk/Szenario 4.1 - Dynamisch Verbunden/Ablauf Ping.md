@@ -82,18 +82,17 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
 - Prüft MAC für TLABPC02:
     - Da MAC unbekannt - ARP-Request ins VLAN 20.
     - TLABPC02 antwortet mit MAC.
-- Router 1 sendet ICMP-Paket an PC02.
 
 ---
 
- **6. ARP**
+ **6. Weiterleitung über Switch**
 
-
-
+- TLABr08 sendet Paket an den Switch
+- 
 
 ---
 
- **7. PC02 empfängt Ping**
+ **7. TLABPC02 empfängt Ping**
 
 - PC02 antwortet mit ICMP Echo Reply.
 - Rückweg identisch, aber ARP und Routing sind jetzt gecached → schneller.
