@@ -128,16 +128,14 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
 
 **11. TLABr08 empfängt Paket**
 
-- Da dieser schon den 
+- Da dieser schon den TLABr07 kennt schickt er das Paket direkt weiter
 
 ---
 
-**12. Router 2 empfängt Paket**
+**12. TLABr07 empfängt Paket**
 
-- Zielnetz [172.21.4.0/24](http://172.21.4.0/24) → direkt verbunden (VLAN 30).
-- Prüft ARP für PC04:
-    - Kennt MAC von PC04 (vom ersten Ping) → **kein ARP nötig**.
-- Sendet ICMP Echo Request an PC04.
+- Zielnetz 172.21.4.0/24 das Netz ist direkt verbunden (VLAN 30).
+- Sendet Paket  an PC04.
 
 ---
 
