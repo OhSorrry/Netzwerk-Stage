@@ -78,9 +78,10 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
 - TLABr08 prüft Routing-Tabelle:
 - Ziel-IP = 172.21.5.10 - liegt in VLAN 20.
 	- Kennt VLAN 20 da es direkt angeschlossen ist
+	
 - Prüft MAC für TLABPC02:
-    - Da MAC unbekaARP-Request ins VLAN 20.
-    - PC02 antwortet mit MAC.
+    - Da MAC unbekannt - ARP-Request ins VLAN 20.
+    - TLABPC02 antwortet mit MAC.
 - Router 1 sendet ICMP-Paket an PC02.
 
 ---
