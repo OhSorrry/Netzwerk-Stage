@@ -265,6 +265,7 @@ interface fa 0/0.30
 description WIN
 no shutdown
 exit
+exit
 ```
 
 
