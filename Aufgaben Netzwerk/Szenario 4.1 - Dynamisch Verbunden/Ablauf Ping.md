@@ -69,13 +69,13 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
 - Prüft MAC für 172.21.1.1
     - Da MAC unbekannt - ARP-Request auf Gi0/0/1.
     - TLABr08 antwortet mit MAC.
-- Router 2 sendet ICMP-Paket an Router 1.
+- TLABr07 sendet ICMP-Paket an TLABr08
 
 ---
 
- **5. Router 1 empfängt Paket**
+ **5. TLABr08 empfängt Paket**
 
-- Router 1 prüft Routing-Tabelle:
+- TLABr08 prüft Routing-Tabelle:
     - Kennt VLAN 20 (direkt verbunden).
 - Ziel-IP = 172.21.5.x → liegt in VLAN 20.
 - Prüft ARP für PC02:
