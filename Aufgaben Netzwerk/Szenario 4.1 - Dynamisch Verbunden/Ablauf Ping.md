@@ -63,20 +63,7 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
 
 ---
 
- **4. OSPF Nachbarschaft aufbauen**
-
-- TLABr08 prüft Routing-Tabelle:
-    - Kennt VLAN 30 und VLAN 40 da sie direkt verbunden sind
-    - Kennt VLAN 10 und VLAN 20 noch nicht, weil er noch nicht OSPF Nachbarn mit TLABr07 is
-- TLABr08 sendet "**OSPF Hello**" an 224.0.0.10 auf Gi0/0/1.
-
-- TLABr07 empfängt Hello, er antwortet TLABr08 und eine Nachbarschaft entsteht
-- Beide tauschen Routing-Informationen, Update-Pakete aus
-- Router 2 lernt: „[172.21.5.0/24](http://172.21.5.0/24) erreichbar über Router 1.“
-
----
-
- **Schritt 5: Router 2 forwardet Paket an Router 1**
+ **4. TLABr08 forwardet Paket an TLABr07**
 
 - Router 2 wählt Next-Hop = 172.21.1.1 (Router 1).
 - Prüft ARP für [172.21.1.1](http://172.21.1.1/):
@@ -86,7 +73,7 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
 
 ---
 
- **Schritt 6: Router 1 empfängt Paket**
+ **5. Router 1 empfängt Paket**
 
 - Router 1 prüft Routing-Tabelle:
     - Kennt VLAN 20 (direkt verbunden).
@@ -98,7 +85,7 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
 
 ---
 
- **Schritt 7: PC02 empfängt Ping**
+ **7. PC02 empfängt Ping**
 
 - PC02 antwortet mit ICMP Echo Reply.
 - Rückweg identisch, aber ARP und Routing sind jetzt gecached → schneller.
