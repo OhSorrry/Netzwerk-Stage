@@ -48,9 +48,15 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
 
 ---
 
- **3. PC04 sendet ICMP Echo Request**
+ **3. PC04 sendet ICMP Ping**
 
-- PC04 erstellt Ping-Paket (ICMP) → Ziel: 172.21.5.x.
+- TLABPC04 erstellt ein Ping-Paket:
+
+| Ziel IP: |     |
+| -------- | --- |
+|          |     |
+
+- → Ziel: 172.21.5.x.
 - Ethernet-Frame: Ziel-MAC = Router 2, Quell-MAC = PC04.
 - Switch leitet Frame an Router 2 (bekannt durch MAC-Table).
 
