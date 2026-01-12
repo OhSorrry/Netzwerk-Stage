@@ -59,8 +59,7 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
 | **Ziel MAC:**  | (TLABr08)     |
 | **Quell MAC:** | (TLABPC04)    |
 - TLABPC04 schickt Paket an Switch
-- Switch leitet Paket an TLABr08 (bekannt durch MAC-Table).
-
+- Switch leitet Paket an TLABr08 weiter, kennt ihn durch die ARP bereits und hat die Adresse in der MAC-Tabelle 
 ---
 
  **4. Router 2 empfängt Paket**
