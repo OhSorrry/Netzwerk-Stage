@@ -88,23 +88,15 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
  **6. Weiterleitung über Switch**
 
 - TLABr08 sendet Paket an den Switch
-- 
+- Switch sendet Paket an TLABPC02 - kennt in bereits durch ARP
 
 ---
 
  **7. TLABPC02 empfängt Ping**
 
-- PC02 antwortet mit ICMP Echo Reply.
-- Rückweg identisch, aber ARP und Routing sind jetzt gecached → schneller.
+- TLABPC02 antwortet mit einer Reply
 
 ---
-
- **Wichtige Punkte:**
-
-- **ARP** wird auf jedem Hop benötigt, wenn MAC unbekannt.
-- **EIGRP Hello** und Routing-Update passieren **beim ersten Paket**, weil vorher keine Nachbarschaft bestand.
-- Switches lernen MAC-Adressen während des Prozesses.
-- Nach dem ersten Ping ist alles im Cache → Folge-Pings sind sofort da.
 
 
 
