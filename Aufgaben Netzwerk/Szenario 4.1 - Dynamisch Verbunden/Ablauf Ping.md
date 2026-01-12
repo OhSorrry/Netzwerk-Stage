@@ -108,8 +108,15 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
 
 **9. Paket erstellen**
 
-- TLABPC02 kennt MAC von 172.21.5.1 (vom ersten Ping) → **kein ARP nötig**.
+- TLABPC02 kennt MAC von 172.21.5.1 aus der ersten ARP bereits
 - Erstellt ICMP Echo Request → Ethernet-Frame an Router 1.
+
+| Info:          | Adresse:      |
+| -------------- | ------------- |
+| **Ziel IP:**   | *172.21.4.10* |
+| **Quell IP:**  | *172.21.4.10* |
+| **Ziel MAC:**  | (TLABr08)     |
+| **Quell MAC:** | (TLABPC04)    |
 
 ---
 
