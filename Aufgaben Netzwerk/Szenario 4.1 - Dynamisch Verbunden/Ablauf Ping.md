@@ -94,7 +94,7 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
 
 **7. TLABPC02 empfängt Ping**
 
-- Ping ist nun am Ziel - Es erfolgt der Rückweg mittels Reply
+- Ping ist jetzt am Ziel - Es folgt der Rückweg mit einer Reply
 
 ---
 
@@ -102,13 +102,13 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
 
 - Ziel: 172.21.4.10 - TLABPC04.
 - Prüft: Liegt im eigenen Subnetz 172.21.5.0/24?  
-    Nein sendet an Default Gateway (172.21.5.1).
+    Nein, muss an Default Gateway gesendet werden - 172.21.5.1
 
 ---
 
-**9. ARP für Gateway?**
+**9. Paket erstellen**
 
-- PC02 kennt MAC von 172.21.5.1 (vom ersten Ping) → **kein ARP nötig**.
+- TLABPC02 kennt MAC von 172.21.5.1 (vom ersten Ping) → **kein ARP nötig**.
 - Erstellt ICMP Echo Request → Ethernet-Frame an Router 1.
 
 ---
