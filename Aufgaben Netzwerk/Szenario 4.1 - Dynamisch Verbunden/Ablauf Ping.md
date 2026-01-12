@@ -22,37 +22,33 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
 
 # Ablauf Ping
 
- **Ablauf: Ping von PC04 (VLAN 30)** **→** **PC02 (VLAN 20)**
-
 **Ausgangslage**
-
-- PC04: IP 172.21.4.x, Gateway 172.21.4.1 (Router 2, VLAN 30)
-- PC02: IP 172.21.5.x, Gateway 172.21.5.1 (Router 1, VLAN 20)
-- Switches: Layer 2, keine IP
-- Router 1 & 2: EIGRP konfiguriert, aber noch keine Nachbarschaft aufgebaut
-- Keine ARP-Caches, keine Routing-Tabellen gefüllt
+- der Ping geht von **TLABPC04 (VLAN 30)** auf **TLABPC02 (VLAN 20)**
+- Auf den Routern ist OSPF konfiguriert aber sie sind noch nicht Nachbarn
+- Alle Geräte kennen sich bis jetzt nicht 
 
 ---
 
- **Schritt 1: PC04 prüft Ziel-IP**
+ **1. TLABPC04 prüft Ziel-IP**
 
-- PC04 will 172.21.5.x erreichen.
-- Prüft: Liegt Ziel-IP im eigenen Subnetz ([172.21.4.0/24](http://172.21.4.0/24))?  
-    → **Nein** → Paket muss an **Default Gateway (172.21.4.1)**.
-
----
-
- **Schritt 2: ARP für Gateway**
-
-- PC04 kennt MAC-Adresse des Gateways nicht.
-- Sendet **ARP-Request (Broadcast)**: „Wer hat 172.21.4.1?“
-- Switch empfängt Broadcast und leitet an alle Ports im VLAN 30 weiter.
-- Router 2 antwortet mit **ARP-Reply**: „Ich bin 172.21.4.1, meine MAC ist XY.“
-- PC04 speichert MAC in ARP-Cache.
+- TLABPC04 will 172.21.5.10 pingen
+- Prüft: Liegt Ziel-IP im eigenen Subnetz 172.21.4.0/24?  
+    Nein. Darum muss das Paket an den Default Gateway (172.21.4.1)
 
 ---
 
- **Schritt 3: PC04 sendet ICMP Echo Request**
+ **2. ARP für Gateway**
+
+- TLABPC04 kennt die MAC vom Gateway nicht
+- Sendet ARP-Request an den Switch mittels Broadcast: Wer kennt die IP 172.21.4.1?
+- Switch empfängt Broadcast und leitet ihn an alle Ports im VLAN 30 weiter
+- TLABr08 antwortet mit ARP-Reply: Ich bin 172.21.4.1 und meine MAC ist XY.
+- Dies wird über den Switch wieder an den TLABPC04 geleitet
+- der PC Speichert die MAC dann in seinem ARP Cache
+
+---
+
+ **3. PC04 sendet ICMP Echo Request**
 
 - PC04 erstellt Ping-Paket (ICMP) → Ziel: 172.21.5.x.
 - Ethernet-Frame: Ziel-MAC = Router 2, Quell-MAC = PC04.
@@ -60,7 +56,7 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
 
 ---
 
- **Schritt 4: Router 2 empfängt Paket**
+ **4. Router 2 empfängt Paket**
 
 - Router 2 prüft Routing-Tabelle:
     - Kennt VLAN 30 (direkt verbunden).
