@@ -56,12 +56,10 @@ In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle
 | -------------- | ------------- |
 | **Ziel IP:**   | *172.21.5.10* |
 | **Quell IP:**  | *172.21.4.10* |
-| **Ziel MAC:**  | TLABr08       |
-| **Quell MAC:** |               |
-
-- → Ziel: 172.21.5.x.
-- Ethernet-Frame: Ziel-MAC = Router 2, Quell-MAC = PC04.
-- Switch leitet Frame an Router 2 (bekannt durch MAC-Table).
+| **Ziel MAC:**  | (TLABr08)     |
+| **Quell MAC:** | (TLABPC04)    |
+- TLABPC04 schickt Paket an Switch
+- Switch leitet Paket an TLABr08 (bekannt durch MAC-Table).
 
 ---
 
