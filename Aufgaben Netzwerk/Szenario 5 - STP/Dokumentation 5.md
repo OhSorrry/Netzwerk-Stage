@@ -97,6 +97,34 @@ exit
 ---
 
 ## Switches
+
+
+
+```cisco
+conf t
+no ip domain-lookup
+```
+---
+```cisco
+hostname TLABsXX
+```
+---
+```cisco
+enable password cisco
+line console 0
+password cisco
+end
+```
+---
+```cisco
+conf t
+banner #
++-------------------------+
+|    Zugang verboten!     |
++-------------------------+
+#
+```
+---
 ```cisco
 conf t
 vlan 10
