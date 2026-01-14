@@ -190,15 +190,36 @@ ip default-gateway 172.21.110.1
 end
 ```
 ---
-Zwischenkontrolle:
-```cisco
-show interface trunk
-```
-```cisco
-show ip interface brief
-```
 
 ### Switch 2
+```cisco
+conf t
+interface fa1/0/1
+description TLABPC04 (VLAN 30)
+switchport mode access
+switchport access vlan 30
+exit
+interface fa1/0/2
+description TLABs11 TRUNK
+switchport trunk encapsulation dot1q
+switchport mode trunk
+switchport trunk allowed vlan 10,20,30
+exit
+interface fa1/0/3
+description TLABs21 TRUNK
+switchport trunk encapsulation dot1q
+switchport mode trunk
+switchport trunk allowed vlan 10,20,30
+exit
+interface vlan 10
+ip address 172.21.110.103
+no shutdown
+exit
+ip default-gateway 172.21.110.1 255.255.255.0
+end
+```
+
+### Switch 3
 ```cisco
 conf t
 interface fa1/0/1
@@ -225,31 +246,11 @@ exit
 ip default-gateway 172.21.110.1
 end
 ```
-
-### Switch 3
+---
+Zwischenkontrolle:
 ```cisco
-conf t
-interface fa1/0/1
-description TLABPC04 (VLAN 30)
-switchport mode access
-switchport access vlan 30
-exit
-interface fa1/0/2
-description TLABs11 TRUNK
-switchport trunk encapsulation dot1q
-switchport mode trunk
-switchport trunk allowed vlan 10,20,30
-exit
-interface fa1/0/3
-description TLABs21 TRUNK
-switchport trunk encapsulation dot1q
-switchport mode trunk
-switchport trunk allowed vlan 10,20,30
-exit
-interface vlan 10
-ip address 172.21.110.103
-no shutdown
-exit
-ip default-gateway 172.21.110.1 255.255.255.0
-end
+show interface trunk
+```
+```cisco
+show ip interface brief
 ```
