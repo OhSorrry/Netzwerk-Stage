@@ -195,6 +195,16 @@ end
 ### Switch 2
 ```cisco
 conf t
+interface range Gi1/0/4 - 28
+description Dummy-VLAN
+switchport mode access
+switchport access vlan 999
+shutdown
+end
+```
+
+```cisco
+conf t
 interface fa1/0/1
 description TLABPC01
 switchport mode access
