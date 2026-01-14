@@ -95,33 +95,6 @@ exit
 
 ---
 ---
-## Switch
-## Router
-```cisco
-conf t
-interface fa 0/0
-no shutdown
-exit
-interface fa 0/0.10
-no shutdown
-description TLABs11 (VLAN 10) 
-encapsulation dot1Q 10
-ip address 172.21.110.1 255.255.255.0
-exit
-interface fa 0/0.20
-no shutdown
-description TLABs11 (VLAN 20) 
-encapsulation dot1Q 20
-ip address 172.21.120.1 255.255.255.0
-exit
-interface fa 0/0.30
-no shutdown
-description TLABs11 (VLAN 30) 
-encapsulation dot1Q 30
-ip address 172.21.130.1 255.255.255.0
-end
-```
-
 
 ## Switches
 ```cisco
