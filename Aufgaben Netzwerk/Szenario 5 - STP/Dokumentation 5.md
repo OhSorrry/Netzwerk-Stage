@@ -62,13 +62,13 @@ Interface IP-Adressen
 conf t
 interface fa 0/0.10
 ip address 172.21.10.1 255.255.255.0
-interface description MGMT
+description MGMT
 interface fa 0/0.20
 ip address 172.21.20.1 255.255.255.0
-interface description LIN
+description LIN
 interface fa 0/0.30
 ip address 172.21.30.1 255.255.255.0
-Interface description WIN
+description WIN
 no shutdown
 end
 ```
