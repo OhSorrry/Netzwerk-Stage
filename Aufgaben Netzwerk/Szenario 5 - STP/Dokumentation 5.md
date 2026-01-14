@@ -165,25 +165,25 @@ end
 ```cisco
 conf t
 interface fa1/0/1
-description TLABr07 TRUNK
+description TLABr08
 switchport trunk encapsulation dot1q
 switchport mode trunk
 switchport trunk allowed vlan 10,20,30
 exit
 interface fa1/0/2
-description TLABs12 TRUNK
+description TLABs06
 switchport trunk encapsulation dot1q
 switchport mode trunk
 switchport trunk allowed vlan 10,20,30
 exit
 interface fa1/0/3
-description TLABs22 TRUNK
+description TLABs21
 switchport trunk encapsulation dot1q
 switchport mode trunk
 switchport trunk allowed vlan 10,20,30
 exit
 interface vlan 10
-ip address 172.21.110.101 255.255.255.0
+ip address 172.21.10.101 255.255.255.0
 no shutdown
 exit
 ip default-gateway 172.21.110.1
@@ -195,24 +195,24 @@ end
 ```cisco
 conf t
 interface fa1/0/1
-description TLABPC04 (VLAN 30)
+description TLABPC01
 switchport mode access
 switchport access vlan 30
 exit
 interface fa1/0/2
-description TLABs11 TRUNK
+description TLABs05
 switchport trunk encapsulation dot1q
 switchport mode trunk
 switchport trunk allowed vlan 10,20,30
 exit
 interface fa1/0/3
-description TLABs21 TRUNK
+description TLABs06
 switchport trunk encapsulation dot1q
 switchport mode trunk
 switchport trunk allowed vlan 10,20,30
 exit
 interface vlan 10
-ip address 172.21.110.103
+ip address 172.21.10.102
 no shutdown
 exit
 ip default-gateway 172.21.110.1 255.255.255.0
@@ -223,24 +223,24 @@ end
 ```cisco
 conf t
 interface fa1/0/1
-description TLABPC03 (VLAN 20)
+description TLABPC02
 switchport mode access
 switchport access vlan 20
 exit
 interface fa1/0/2
-description TLABs22 TRUNK
+description TLABs21
 switchport trunk encapsulation dot1q
 switchport mode trunk
 switchport trunk allowed vlan 10,20,30
 exit
 interface fa1/0/3
-description TLABs11 TRUNK
+description TLABs05
 switchport trunk encapsulation dot1q
 switchport mode trunk
 switchport trunk allowed vlan 10,20,30
 exit
 interface vlan 10
-ip address 172.21.110.102 255.255.255.0
+ip address 172.21.10.103 255.255.255.0
 no shutdown
 exit
 ip default-gateway 172.21.110.1
