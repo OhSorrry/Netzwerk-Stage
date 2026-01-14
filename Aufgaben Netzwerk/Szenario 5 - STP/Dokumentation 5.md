@@ -96,11 +96,38 @@ exit
 ---
 ---
 ## Switch
+## Router
+```cisco
+conf t
+interface fa 0/0
+no shutdown
+exit
+interface fa 0/0.10
+no shutdown
+description TLABs11 (VLAN 10) 
+encapsulation dot1Q 10
+ip address 172.21.110.1 255.255.255.0
+exit
+interface fa 0/0.20
+no shutdown
+description TLABs11 (VLAN 20) 
+encapsulation dot1Q 20
+ip address 172.21.120.1 255.255.255.0
+exit
+interface fa 0/0.30
+no shutdown
+description TLABs11 (VLAN 30) 
+encapsulation dot1Q 30
+ip address 172.21.130.1 255.255.255.0
+end
+```
 
+
+## Switches
 ```cisco
 conf t
 vlan 10
-name MGMT-VLAN
+name Management-VLAN
 exit
 vlan 20
 name LIN-VLAN
@@ -116,20 +143,112 @@ end
 ```cisco
 conf t
 interface range FA1/0/4 - 48
-description unbenutzt
-switchport mode access
-switchport access vlan 999
-shutdown
-exit
-```
----
-```cisco
-conf t
-interface range Gi1/0/1 - 4
-description unbenutzt
+description Dummy-VLAN
 switchport mode access
 switchport access vlan 999
 shutdown
 end
 ```
 ---
+```cisco
+conf t
+interface range Gi1/0/1 - 4
+description Dummy-VLAN
+switchport mode access
+switchport access vlan 999
+shutdown
+end
+```
+
+### Switch 1
+```cisco
+conf t
+interface fa1/0/1
+description TLABr07 TRUNK
+switchport trunk encapsulation dot1q
+switchport mode trunk
+switchport trunk allowed vlan 10,20,30
+exit
+interface fa1/0/2
+description TLABs12 TRUNK
+switchport trunk encapsulation dot1q
+switchport mode trunk
+switchport trunk allowed vlan 10,20,30
+exit
+interface fa1/0/3
+description TLABs22 TRUNK
+switchport trunk encapsulation dot1q
+switchport mode trunk
+switchport trunk allowed vlan 10,20,30
+exit
+interface vlan 10
+ip address 172.21.110.101 255.255.255.0
+no shutdown
+exit
+ip default-gateway 172.21.110.1
+end
+```
+---
+Zwischenkontrolle:
+```cisco
+show interface trunk
+```
+```cisco
+show ip interface brief
+```
+
+### Switch 2
+```cisco
+conf t
+interface fa1/0/1
+description TLABPC03 (VLAN 20)
+switchport mode access
+switchport access vlan 20
+exit
+interface fa1/0/2
+description TLABs22 TRUNK
+switchport trunk encapsulation dot1q
+switchport mode trunk
+switchport trunk allowed vlan 10,20,30
+exit
+interface fa1/0/3
+description TLABs11 TRUNK
+switchport trunk encapsulation dot1q
+switchport mode trunk
+switchport trunk allowed vlan 10,20,30
+exit
+interface vlan 10
+ip address 172.21.110.102 255.255.255.0
+no shutdown
+exit
+ip default-gateway 172.21.110.1
+end
+```
+
+### Switch 3
+```cisco
+conf t
+interface fa1/0/1
+description TLABPC04 (VLAN 30)
+switchport mode access
+switchport access vlan 30
+exit
+interface fa1/0/2
+description TLABs11 TRUNK
+switchport trunk encapsulation dot1q
+switchport mode trunk
+switchport trunk allowed vlan 10,20,30
+exit
+interface fa1/0/3
+description TLABs21 TRUNK
+switchport trunk encapsulation dot1q
+switchport mode trunk
+switchport trunk allowed vlan 10,20,30
+exit
+interface vlan 10
+ip address 172.21.110.103
+no shutdown
+exit
+ip default-gateway 172.21.110.1 255.255.255.0
+end
+```
