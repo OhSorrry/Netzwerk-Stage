@@ -205,18 +205,18 @@ end
 
 ```cisco
 conf t
-interface fa1/0/1
+interface Gi1/0/1
 description TLABPC01
 switchport mode access
 switchport access vlan 30
 exit
-interface fa1/0/2
+interface Gi1/0/2
 description TLABs05
 switchport trunk encapsulation dot1q
 switchport mode trunk
 switchport trunk allowed vlan 10,20,30
 exit
-interface fa1/0/3
+interface Gi1/0/3
 description TLABs06
 switchport trunk encapsulation dot1q
 switchport mode trunk
