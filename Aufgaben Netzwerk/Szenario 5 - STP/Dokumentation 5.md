@@ -194,6 +194,8 @@ ip address 172.21.10.101 255.255.255.0
 no shutdown
 exit
 ip default-gateway 172.21.10.1
+line vty 0 4 
+password cisco
 end
 ```
 ---
