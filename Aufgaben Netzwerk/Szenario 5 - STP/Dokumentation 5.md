@@ -101,6 +101,7 @@ exit
 
 
 ```cisco
+enable
 conf t
 no ip domain-lookup
 ```
