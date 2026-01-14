@@ -212,14 +212,14 @@ switchport access vlan 30
 exit
 interface Gi1/0/2
 description TLABs05
-switchport trunk encapsulation dot1q
 switchport mode trunk
+switchport trunk encapsulation dot1q
 switchport trunk allowed vlan 10,20,30
 exit
 interface Gi1/0/3
 description TLABs06
-switchport trunk encapsulation dot1q
 switchport mode trunk
+switchport trunk encapsulation dot1q
 switchport trunk allowed vlan 10,20,30
 exit
 interface vlan 10
