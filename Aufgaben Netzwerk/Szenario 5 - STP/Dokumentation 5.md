@@ -61,12 +61,17 @@ Interface IP-Adressen
 ```cisco
 conf t
 interface fa 0/0.10
+encapsulation dot1Q 10
 ip address 172.21.10.1 255.255.255.0
 description MGMT
+no shutdown
 interface fa 0/0.20
+encapsulation dot1Q 20
 ip address 172.21.20.1 255.255.255.0
 description LIN
+no shutdown
 interface fa 0/0.30
+encapsulation dot1Q 30
 ip address 172.21.30.1 255.255.255.0
 description WIN
 no shutdown
