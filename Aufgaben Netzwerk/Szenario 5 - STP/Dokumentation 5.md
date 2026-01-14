@@ -8,14 +8,14 @@ Spanning Tree Route über S1 ()
 
 
 
-| Bauteil:   | Name:      | IP-Adresse:                                                                         | Description:                   |
-| ---------- | ---------- | ----------------------------------------------------------------------------------- | ------------------------------ |
-| Windows PC | *TLABPC01* | *172.21.3.10*                                                                       | -                              |
-| Linux PC   | *TLABPC02* | *172.21.2.10*                                                                       | -                              |
-| Router     | *TLABr08*  | **FA0/0.1:** *172.21.1.1*<br>**FA0/0.2:** *172.21.2.1*<br>**FA0/0.3:** *172.21.3.1* | MGMT<br>LIN<br>WIN             |
-| Switch 1   | *TLABs05*  | **FA1/0/1:** -<br>**FA1/0/2:** -<br>**FA1/0/3:** -<br>                              | TLABr08<br>TLABs06<br>TLABs21  |
-| Switch 2   | *TLABs21*  | **FA1/0/1:** -<br>**FA1/0/2:** -<br>**FA1/0/3:** -                                  | TLABPC01<br>TLABs05<br>TLABs06 |
-| Switch 3   | *TLABs06*  | **FA1/0/1:** -<br>**FA1/0/2:** -<br>**FA1/0/3:** -                                  | TLABPC02<br>TLABs21<br>TLABs05 |
+| Bauteil:   | Name:      | IP-Adresse:                                                                            | Description:                   |
+| ---------- | ---------- | -------------------------------------------------------------------------------------- | ------------------------------ |
+| Windows PC | *TLABPC01* | *172.21.30.10*                                                                         | -                              |
+| Linux PC   | *TLABPC02* | *172.21.20.10*                                                                         | -                              |
+| Router     | *TLABr08*  | **FA0/0.1:** *172.21.10.1*<br>**FA0/0.2:** *172.21.20.1*<br>**FA0/0.3:** *172.21.30.1* | MGMT<br>LIN<br>WIN             |
+| Switch 1   | *TLABs05*  | **FA1/0/1:** -<br>**FA1/0/2:** -<br>**FA1/0/3:** -<br>                                 | TLABr08<br>TLABs06<br>TLABs21  |
+| Switch 2   | *TLABs21*  | **FA1/0/1:** -<br>**FA1/0/2:** -<br>**FA1/0/3:** -                                     | TLABPC01<br>TLABs05<br>TLABs06 |
+| Switch 3   | *TLABs06*  | **FA1/0/1:** -<br>**FA1/0/2:** -<br>**FA1/0/3:** -                                     | TLABPC02<br>TLABs21<br>TLABs05 |
 
 
 ---
