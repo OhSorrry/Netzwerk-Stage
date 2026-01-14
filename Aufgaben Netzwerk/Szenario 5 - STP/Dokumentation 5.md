@@ -193,7 +193,7 @@ interface vlan 10
 ip address 172.21.10.101 255.255.255.0
 no shutdown
 exit
-ip default-gateway 172.21.110.1
+ip default-gateway 172.21.10.1
 end
 ```
 ---
@@ -232,7 +232,7 @@ interface vlan 10
 ip address 172.21.10.102
 no shutdown
 exit
-ip default-gateway 172.21.110.1 255.255.255.0
+ip default-gateway 172.21.10.1 255.255.255.0
 end
 ```
 
@@ -260,7 +260,7 @@ interface vlan 10
 ip address 172.21.10.103 255.255.255.0
 no shutdown
 exit
-ip default-gateway 172.21.110.1
+ip default-gateway 172.21.10.1
 end
 ```
 ---
