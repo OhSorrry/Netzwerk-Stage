@@ -62,9 +62,21 @@
               "icon": "lucide-file",
               "title": "Dokumentation 5"
             }
+          },
+          {
+            "id": "aa692309f2e4607c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.4"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "83d9146a4a6e0e7b",
@@ -257,7 +269,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ad8e9965c4460ac3",
+  "active": "aa692309f2e4607c",
   "lastOpenFiles": [
     "Aufgaben Netzwerk/Szenario 3 - Router on a Stick/Dokumentation 3.md",
     "Aufgaben Netzwerk/Szenario 5 - STP/Dokumentation 5.md",
