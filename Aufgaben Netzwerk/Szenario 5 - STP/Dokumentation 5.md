@@ -202,6 +202,11 @@ end
 spanning-tree mode rapid-pvst
 interface fa1/0/1
 spanning-tree portfast trunk
+
+spanning-tree vlan 1 root primary
+spanning-tree vlan 10 root primary
+spanning-tree vlan 20 root primary
+spanning-tree vlan 30 root primary
 ```
 ---
 
