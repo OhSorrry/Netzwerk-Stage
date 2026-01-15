@@ -1,4 +1,4 @@
-outer
+ outer
 
 Grundkonfig:
 ```cisco
