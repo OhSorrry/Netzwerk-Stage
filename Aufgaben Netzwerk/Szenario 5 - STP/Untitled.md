@@ -181,6 +181,7 @@ end
 spanning-tree mode rapid-pvst
 interface fa0/1
 spanning-tree portfast trunk
+exit
 
 spanning-tree vlan 1 root primary
 spanning-tree vlan 10 root primary
@@ -229,9 +230,12 @@ password cisco
 end
 ```
 ```cisco
+conf t
 spanning-tree mode rapid-pvst
-interface gi1/0/1
-spanning-tree portfast
+interface fa0/1
+spanning-tree portfast trunk
+exit
+
 ```
 
 ### Switch 3
@@ -263,6 +267,11 @@ line vty 0 4
 password cisco
 end
 
+conf t
+spanning-tree mode rapid-pvst
+interface fa0/1
+spanning-tree portfast trunk
+exit
 
 ```
 ---
