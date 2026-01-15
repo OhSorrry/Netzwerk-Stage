@@ -243,7 +243,8 @@ password cisco
 end
 
 spanning-tree mode rapid-pvst
-
+interface gi1/0/1
+spanning-tree portfast
 ```
 
 ### Switch 3
