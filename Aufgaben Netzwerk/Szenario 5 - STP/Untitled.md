@@ -193,7 +193,7 @@ spanning-tree vlan 30 root primary
 ### Switch 2
 ```cisco
 conf t
-interface range Gi1/0/4 - 28
+interface range fa1/0/4 - 24
 description Dummy-VLAN
 switchport mode access
 switchport access vlan 999
@@ -203,18 +203,18 @@ end
 
 ```cisco
 conf t
-interface Gi1/0/1
+interface fa0/1
 description TLABPC01
 switchport mode access
 switchport access vlan 30
 exit
-interface Gi1/0/2
+interface fa0/2
 description TLABs05
 switchport mode trunk
 switchport trunk encapsulation dot1q
 switchport trunk allowed vlan 10,20,30
 exit
-interface Gi1/0/3
+interface fa0/3
 description TLABs06
 switchport mode trunk
 switchport trunk encapsulation dot1q
