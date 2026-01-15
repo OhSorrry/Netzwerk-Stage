@@ -129,7 +129,7 @@ end
 ---
 ```cisco
 conf t
-interface range FA1/0/4 - 48
+interface range fa0/4 - 24
 description Dummy-VLAN
 switchport mode access
 switchport access vlan 999
@@ -139,7 +139,7 @@ end
 ---
 ```cisco
 conf t
-interface range Gi1/0/1 - 4
+interface range Gi0/1 - 2
 description Dummy-VLAN
 switchport mode access
 switchport access vlan 999
@@ -150,19 +150,19 @@ end
 ### Switch 1
 ```cisco
 conf t
-interface fa1/0/1
+interface fa0/1
 description TLABr08
 switchport trunk encapsulation dot1q
 switchport mode trunk
 switchport trunk allowed vlan 10,20,30
 exit
-interface fa1/0/2
+interface fa0/2
 description TLABs06
 switchport trunk encapsulation dot1q
 switchport mode trunk
 switchport trunk allowed vlan 10,20,30
 exit
-interface fa1/0/3
+interface fa0/3
 description TLABs21
 switchport trunk encapsulation dot1q
 switchport mode trunk
@@ -179,7 +179,7 @@ end
 ```
 ```cisco
 spanning-tree mode rapid-pvst
-interface fa1/0/1
+interface fa0/1
 spanning-tree portfast trunk
 
 spanning-tree vlan 1 root primary
