@@ -241,18 +241,18 @@ exit
 ### Switch 3
 ```cisco
 conf t
-interface fa1/0/1
+interface fa0/1
 description TLABPC02
 switchport mode access
 switchport access vlan 20
 exit
-interface fa1/0/2
+interface fa0/2
 description TLABs21
 switchport trunk encapsulation dot1q
 switchport mode trunk
 switchport trunk allowed vlan 10,20,30
 exit
-interface fa1/0/3
+interface fa0/3
 description TLABs05
 switchport trunk encapsulation dot1q
 switchport mode trunk
