@@ -197,8 +197,10 @@ ip default-gateway 172.21.10.1
 line vty 0 4 
 password cisco
 end
-
+```
+```cisco
 spanning-tree mode rapid-pvst
+interface fa1/0/1
 spanning-tree portfast trunk
 ```
 ---
@@ -241,7 +243,8 @@ ip default-gateway 172.21.10.1
 line vty 0 4 
 password cisco
 end
-
+```
+```cisco
 spanning-tree mode rapid-pvst
 interface gi1/0/1
 spanning-tree portfast
