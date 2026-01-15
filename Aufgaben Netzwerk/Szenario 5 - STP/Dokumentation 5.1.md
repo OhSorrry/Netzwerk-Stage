@@ -1,5 +1,5 @@
- outer
 
+## Router
 Grundkonfig:
 ```cisco
 conf t
