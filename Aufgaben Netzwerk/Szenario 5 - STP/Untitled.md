@@ -59,15 +59,15 @@ end
 ---
 ```cisco
 conf t
-interface fa 0/0.10
+interface gi 0/0/0.10
 description MGMT
 no shutdown
 exit
-interface fa 0/0.20
+interface gi 0/0/0.20
 description LIN
 no shutdown
 exit
-interface fa 0/0.30
+interface gi 0/0/0.30
 description WIN
 no shutdown
 exit
