@@ -197,6 +197,9 @@ ip default-gateway 172.21.10.1
 line vty 0 4 
 password cisco
 end
+
+spanning-tree mode rapid-pvst
+spanning-tree portfast trunk
 ```
 ---
 
@@ -238,6 +241,9 @@ ip default-gateway 172.21.10.1
 line vty 0 4 
 password cisco
 end
+
+spanning-tree mode rapid-pvst
+
 ```
 
 ### Switch 3
@@ -268,6 +274,8 @@ ip default-gateway 172.21.10.1
 line vty 0 4 
 password cisco
 end
+
+
 ```
 ---
 Zwischenkontrolle:
