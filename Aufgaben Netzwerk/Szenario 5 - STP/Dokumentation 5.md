@@ -5,8 +5,10 @@ Management IP auf Switches in anderem Subnetz als Pcs
 Spanning Tree Protocol anschauen
 Spanning Tree Route über S1 ()  
 
+![](Screenshots/Pasted%20image%2020260116082549.png)
 
 
+## Adresstabelle
 
 | Bauteil:   | Name:      | IP-Adresse:                                                                            | Description:                   |
 | ---------- | ---------- | -------------------------------------------------------------------------------------- | ------------------------------ |
