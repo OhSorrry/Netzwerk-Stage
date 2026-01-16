@@ -126,6 +126,14 @@ description WIN
 no shutdown
 end
 ```
+---
+---
 
 
-
+## Switch
+```cisco
+interface fa1/0/4
+description TLABPC01
+switchport mode access
+switchport access vlan 30
+```
