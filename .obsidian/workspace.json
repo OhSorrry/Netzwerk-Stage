@@ -62,14 +62,7 @@
               "icon": "lucide-file",
               "title": "Dokumentation 5.2 - Zusätzliches VLAN"
             }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "83d9146a4a6e0e7b",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "467cfb7b82d41bbe",
             "type": "leaf",
@@ -84,7 +77,8 @@
               "title": "Dokumentation 6"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
