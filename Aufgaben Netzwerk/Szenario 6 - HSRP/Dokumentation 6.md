@@ -34,7 +34,7 @@ no ip domain-lookup
 ```
 ---
 ```cisco
-hostname TLABr08
+hostname TLABrXX
 ```
 ---
 ```cisco
