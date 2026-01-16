@@ -67,6 +67,9 @@ end
 Interface IP-Adressen
 ```cisco
 conf t
+interface fa0/0
+no shutdown
+
 interface fa 0/0.10
 encapsulation dot1Q 10
 ip address 172.21.10.2 255.255.255.0
