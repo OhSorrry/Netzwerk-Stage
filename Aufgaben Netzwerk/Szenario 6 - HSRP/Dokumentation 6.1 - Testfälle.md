@@ -7,7 +7,7 @@ noe.messmer@raiffeisen.ch
 +41 78 767 86 46
 
 #### Testart:
-- Sanity Test
+- Funktionstest
 
 #### Ziel:
 Die Clients prüfen ob sie sich gegenseitig und somit auch den Gateway pingen können.
@@ -51,7 +51,7 @@ noe.messmer@raiffeisen.ch
 +41 78 767 86 46
 
 #### Testart:
-- 
+- Funktionstest
 #### Ziel:
 Überprüfung der Übernahme des passiven Routers bei dem Ausfall des primären Routers.
 
@@ -96,7 +96,7 @@ noe.messmer@raiffeisen.ch
 +41 78 767 86 46
 
 #### Testart:
-- 
+- Funktionstest
 
 #### Ziel: 
 Sicherstellen dass das STP funktioniert und beim Ausfall der Haupt Route die Sekundäre schnell einspringt.
@@ -130,4 +130,3 @@ show spanning-tree
 
 
 #### Mängelklasse:
-
