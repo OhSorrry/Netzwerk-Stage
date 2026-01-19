@@ -4,7 +4,7 @@
 #### angaben des Testers:
 Noé Messmer
 noe.messmer@raiffeisen.ch
-
++41 78 767 86 46
 
 #### Testart:
 
