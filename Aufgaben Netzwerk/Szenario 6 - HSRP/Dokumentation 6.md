@@ -108,7 +108,7 @@ interface fa 0/0.10
 encapsulation dot1Q 10
 ip address 172.21.10.2 255.255.255.0
 standby 10 ip 172.21.10.1 
-standby 10 priority 100 
+standby 10 priority 90
 description MGMT
 no shutdown
 
@@ -116,7 +116,7 @@ interface fa 0/0.20
 encapsulation dot1Q 20
 ip address 172.21.20.2 255.255.255.0
 standby 20 ip 172.21.20.1 
-standby 20 priority 100 
+standby 20 priority 90
 description LIN
 no shutdown
 
@@ -124,7 +124,7 @@ interface fa 0/0.30
 encapsulation dot1Q 30
 ip address 172.21.30.2 255.255.255.0
 standby 30 ip 172.21.30.1 
-standby 30 priority 100 
+standby 30 priority 90
 description WIN
 no shutdown
 end
