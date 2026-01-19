@@ -123,6 +123,11 @@ show spanning-tree
 
 #### Ergebnis:
 
+![](Screenshots/Pasted%20image%2020260119161109.png)
+
+
+
+
 
 #### Mängelklasse:
 
