@@ -37,6 +37,7 @@ Ping zu Gateway:
 Ping zu Linux Client:
 ![](Screenshots/Pasted%20image%2020260119145659.png)
 
+Beide Pings sind ohne Fehler verlaufen und alle Pakete sind empfangen worden. Der Test war ein Erfolg.
 #### Mängelklasse:
 Der Test war erfolgreich, es besteht keinen Grund eine Mängelklasse zu bestimmen.
 
@@ -56,14 +57,14 @@ noe.messmer@raiffeisen.ch
 
 #### Voraussetzung: 
 Alle Geräte sind korrekt konfiguriert und eingeschaltet. 
-Ein Dauerhafter Ping vom Windows Client zum Gateway:
+Ein Dauerhafter Ping vom Windows Client zum Linux Client:
 ```cisco
-ping -t 172.21.30.1
+ping -t 172.21.20.10
 ```
 #### Durchführung:
 - Ping wird auf Windows Client gestartet:
 ```cisco
-ping -t 172.21.30.1
+ping -t 172.21.20.10
 ```
 - Das Kabel wird am Router 1 auf dem interface **fa0/0** ausgesteckt, um einen Router Absturz zu simulieren
 - Auf dem laufendem Ping beobachten wieviele Pakete verloren gehen.
@@ -75,11 +76,15 @@ ping -t 172.21.30.1
 - Der Ping unterbricht nur kurz, nach maximal 1-2 verlorenen Paketen übernimmt der Router 2
 
 #### Ergebnis:
+Ping zu Linux Client beim Ausstecken des Kabels:
+![](Screenshots/Pasted%20image%2020260119150858.png)
 
+Ping zu Linux Client beim Einstecken des Kabels:
+![](Screenshots/Pasted%20image%2020260119151004.png)
 
+Bei dem Ping gab es jeweils nur ein verlorenes Paket beim Aus- und Einstecken des Kabels. Der Test ist im erwarteten Rahmen und war somit erfolgreich.
 #### Mängelklasse:
-
-
+Der Test war erfolgreich, es besteht keinen Grund eine Mängelklasse zu bestimmen.
 
 
 ---

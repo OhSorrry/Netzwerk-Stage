@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -237,8 +237,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "12abba0f0caae266",
+  "active": "467cfb7b82d41bbe",
   "lastOpenFiles": [
+    "Aufgaben Netzwerk/Szenario 6 - HSRP/Screenshots/Pasted image 20260119151004.png",
+    "Aufgaben Netzwerk/Szenario 6 - HSRP/Screenshots/Pasted image 20260119150944.png",
+    "Aufgaben Netzwerk/Szenario 6 - HSRP/Screenshots/Pasted image 20260119150858.png",
+    "Aufgaben Netzwerk/Szenario 6 - HSRP/Dokumentation 6.md",
     "Aufgaben Netzwerk/Szenario 4 - Verbunden/Dokumentation 4.2 - Cisco Paket Tracer.md",
     "Aufgaben Netzwerk/Szenario 6 - HSRP/Dokumentation 6.1 - Testfälle.md",
     "Aufgaben Netzwerk/Szenario 6 - HSRP/Screenshots/Pasted image 20260119145659.png",
@@ -250,7 +254,6 @@
     "Aufgaben Netzwerk/Szenario 5 - STP/Dokumentation 5.md",
     "Aufgaben Netzwerk/Szenario 1 - DirectConnect/Dokumentation 1.md",
     "Aufgaben Netzwerk/Szenario 6 - HSRP/Screenshots/Pasted image 20260119125630.png",
-    "Aufgaben Netzwerk/Szenario 6 - HSRP/Dokumentation 6.md",
     "Aufgaben Netzwerk/Szenario 6 - HSRP/Screenshots/Pasted image 20260119100323.png",
     "Aufgaben Netzwerk/Szenario 6 - HSRP/Screenshots",
     "Aufgaben Netzwerk/Szenario 4 - Verbunden/Dokumentation 4.md",
@@ -265,8 +268,6 @@
     "Aufgaben Netzwerk/Szenario 4 - Verbunden/Screenshots 1/Pasted image 20260108133927.png",
     "Aufgaben Netzwerk/Szenario 4 - Verbunden/Screenshots 1/Pasted image 20260108133809.png",
     "Aufgaben Netzwerk/Szenario 4 - Verbunden/Screenshots 1/Pasted image 20260108133540.png",
-    "Aufgaben Netzwerk/Szenario 4 - Verbunden/Screenshots 1/Pasted image 20260108094108.png",
-    "Aufgaben Netzwerk/Szenario 4 - Verbunden/Screenshots 1/Pasted image 20260108094056.png",
     "Aufgaben Netzwerk/Szenario 4 - Verbunden/Screenshots 1",
     "Aufgaben Netzwerk/Szenario 4.1 - Dynamisch Verbunden.md",
     "Aufgaben Netzwerk/Szenario 4 - Verbunden/Szenario 4.1 - Dynamisch Verbunden",
