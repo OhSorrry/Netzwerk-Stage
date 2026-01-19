@@ -51,7 +51,8 @@ noe.messmer@raiffeisen.ch
 Überprüfung der Übernahme des passiven Routers bei dem Ausfall des primären Routers.
 
 #### Voraussetzung: 
-Alle Geräte sind korrekt konfiguriert und eingeschaltet. Ein Dauerhafter Ping vom Windows Client zum Gateway:
+Alle Geräte sind korrekt konfiguriert und eingeschaltet. 
+Ein Dauerhafter Ping vom Windows Client zum Gateway:
 ```cisco
 ping -t 172.21.30.1
 ```
@@ -90,9 +91,13 @@ noe.messmer@raiffeisen.ch
 
 #### Ziel: 
 Sicherstellen dass das STP funktioniert und beim Ausfall der Haupt Route die Sekundäre schnell einspringt.
-
+Ein Dauerhafter Ping vom Windows Client zum Gateway:
+```cisco
+ping -t 172.21.30.1
+```
 #### Voraussetzung: 
-Der Windows Client pingt den Gateway **172.21.20.1** Der Pfad läuft aktuell von S3 direkt nach S1.
+Alle Geräte sind korrekt konfiguriert und eingeschaltet. 
+Der Windows Client pingt den Gateway **172.21.20.1**. Der Pfad läuft aktuell von S3 direkt nach S1.
 
 #### Durchführung:
 
