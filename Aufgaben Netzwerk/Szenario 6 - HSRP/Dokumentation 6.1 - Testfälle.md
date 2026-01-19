@@ -16,14 +16,14 @@ Die Clients pr체fen ob sie sich gegenseitig und somit auch den Gateway pingen k�
 Alle Ger채te sind korrekt konfiguriert und eingeschaltet.
 
 #### Durchf체hrung:
-- Vom Windows Client **172.21.20.10** den virtuellen Gateway pingen: 
+- Vom Windows Client **172.21.30.10** den virtuellen Gateway pingen: 
 ```cisco
-ping 172.21.20.1
+ping 172.21.30.1
 ```
 
-- Vom Windows Client **172.21.20.10** den Linux Client **172.21.30.10** pingen:
+- Vom Windows Client **172.21.30.10** den Linux Client **172.21.20.10** pingen:
 ```cisco
-ping 172.21.30.10
+ping 172.21.20.10
 ```
 
 #### Erwartetes Ergebnis:
@@ -31,10 +31,14 @@ ping 172.21.30.10
 - Der Ping von Client zu Client ist erfolgreich, Routing 체ber verschiedene VLANs funktioniert
 
 #### Ergebnis:
+Ping zu Gateway:
+![](Screenshots/Pasted%20image%2020260119145556.png)
 
+Ping zu Linux Client:
+![](Screenshots/Pasted%20image%2020260119145659.png)
 
 #### M채ngelklasse:
-
+Der Test war erfolgreich, es besteht keinen Grund eine M채ngelklasse zu bestimmen.
 
 
 ---
