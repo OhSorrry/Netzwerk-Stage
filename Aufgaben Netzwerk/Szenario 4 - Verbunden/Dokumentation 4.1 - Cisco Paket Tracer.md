@@ -8,7 +8,7 @@ In dieser Aufgabe mussten wir das gesamte Netzwerk vom Szenario 4 ins Cisco Pack
 
 
 **Modell in Cisco:**
-![](Screenshots/Pasted%20image%2020260107154126.png)
+![](Screenshots%201/Pasted%20image%2020260107154126.png)
 
 
 ## Adresstabelle
@@ -129,35 +129,35 @@ exit
 
 
 Auf tlabr07 
-![](Screenshots/Pasted%20image%2020260108093913.png)
+![](Screenshots%201/Pasted%20image%2020260108093913.png)
 
-![](Screenshots/Pasted%20image%2020260108093926.png)
+![](Screenshots%201/Pasted%20image%2020260108093926.png)
 
 Auf ospf zugreifen:
-![](Screenshots/Pasted%20image%2020260107150954.png)
+![](Screenshots%201/Pasted%20image%2020260107150954.png)
 
-![](Screenshots/Pasted%20image%2020260107151148.png)
+![](Screenshots%201/Pasted%20image%2020260107151148.png)
 
-![](Screenshots/Pasted%20image%2020260108133540.png)
+![](Screenshots%201/Pasted%20image%2020260108133540.png)
 
 
 
 auf tlabr08:
-![](Screenshots/Pasted%20image%2020260108094056.png)
+![](Screenshots%201/Pasted%20image%2020260108094056.png)
 
-![](Screenshots/Pasted%20image%2020260108094108.png)
+![](Screenshots%201/Pasted%20image%2020260108094108.png)
 
 Auf ospf zugreifen:
-![](Screenshots/Pasted%20image%2020260107150954.png)
+![](Screenshots%201/Pasted%20image%2020260107150954.png)
 
-![](Screenshots/Pasted%20image%2020260107151007.png)
+![](Screenshots%201/Pasted%20image%2020260107151007.png)
 
-![](Screenshots/Pasted%20image%2020260108133927.png)
+![](Screenshots%201/Pasted%20image%2020260108133927.png)
 
 
 
 config löschen:
-![](Screenshots/Pasted%20image%2020260108094008.png)
+![](Screenshots%201/Pasted%20image%2020260108094008.png)
 
 ---
 ---

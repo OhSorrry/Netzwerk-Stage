@@ -2,7 +2,7 @@
 ## Auftrag
 
 In dieser Aufgabe ist der genaue Ablauf eines Pings beschrieben. Darin sind alle Schritte enthalten die passieren wenn der PC **TLAPC04** den PC **TLABPC02** pingt. Dabei wird von dem folgenden Netzwerk ausgegangen:
-![](Screenshots/Pasted%20image%2020260107154126.png)
+![](Screenshots%201/Pasted%20image%2020260107154126.png)
 ## Adresstabelle
 
 | Bauteil:           | Name:      | IP-Adresse:                                                                       | Description:                                              |
