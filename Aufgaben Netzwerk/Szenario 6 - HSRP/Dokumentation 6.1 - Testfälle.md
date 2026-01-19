@@ -91,14 +91,14 @@ noe.messmer@raiffeisen.ch
 
 #### Ziel: 
 Sicherstellen dass das STP funktioniert und beim Ausfall der Haupt Route die Sekundäre schnell einspringt.
+
+#### Voraussetzung: 
+Alle Geräte sind korrekt konfiguriert und eingeschaltet. 
+Der Pfad läuft aktuell von S3 direkt nach S1.
 Ein Dauerhafter Ping vom Windows Client zum Gateway:
 ```cisco
 ping -t 172.21.30.1
 ```
-#### Voraussetzung: 
-Alle Geräte sind korrekt konfiguriert und eingeschaltet. 
-Der Windows Client pingt den Gateway **172.21.20.1**. Der Pfad läuft aktuell von S3 direkt nach S1.
-
 #### Durchführung:
 
     1. Die Verbindung zwischen **S3 und S1** trennen.
