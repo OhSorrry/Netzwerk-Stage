@@ -1,17 +1,7 @@
-Basierend auf deiner Topologie und der HSRP/STP-Konfiguration sind hier drei entscheidende Testfälle, um die Redundanz und Erreichbarkeit deines Netzwerks zu validieren.
 
-### Test-Szenario Übersicht
-
-- **HSRP:** Router 1 (links) ist `Active`, Router 2 (rechts) ist `Standby`. Virtuelle IP ist jeweils die `.1`.
-- **STP:** Switch S1 ist die Root Bridge (wegen der direkten Verbindung zum aktiven Router).
-- **VLANs:** 10 (MGMT), 20 (LIN), 30 (WIN).
-
-
----
-
-### Testfall 1: Client-Konnektivität & Inter-VLAN Routing
-
-**Ziel:** Überprüfung, ob Clients ihr Standard-Gateway erreichen und zwischen den VLANs kommunizieren können.
+## Testfall 1: Client zu Client Ping
+#### Ziel:
+Überprüfung, ob Clients ihr Standard-Gateway erreichen und zwischen den VLANs kommunizieren können.
 
 - **Voraussetzung:** Alle Geräte sind eingeschaltet; HSRP-Status ist `Active`/`Standby`.
     
@@ -30,7 +20,7 @@ Basierend auf deiner Topologie und der HSRP/STP-Konfiguration sind hier drei ent
 
 
 ---
-
+---
 ### Testfall 2: HSRP Failover (Router-Ausfall)
 
 **Ziel:** Überprüfung der Hochverfügbarkeit bei Ausfall des primären Routers.
@@ -54,8 +44,9 @@ Basierend auf deiner Topologie und der HSRP/STP-Konfiguration sind hier drei ent
     - Router 2 zeigt den Status `Active`.
     
 
----
 
+---
+---
 ### Testfall 3: STP Redundanz (Switch-Link Ausfall)
 
 **Ziel:** Sicherstellen, dass der Spanning Tree bei einem Link-Ausfall einen alternativen Pfad öffnet.
