@@ -81,7 +81,7 @@ Ping zu Linux Client beim Ausstecken des Kabels:
 
 Ping zu Linux Client beim Einstecken des Kabels:
 ![](Screenshots/Pasted%20image%2020260119151004.png)
-
+   
 Bei dem Ping gab es jeweils nur ein verlorenes Paket beim Aus- und Einstecken des Kabels. Der Test ist im erwarteten Rahmen und war somit erfolgreich.
 #### Mängelklasse:
 Der Test war erfolgreich, es besteht keinen Grund eine Mängelklasse zu bestimmen.
