@@ -97,7 +97,7 @@ noe.messmer@raiffeisen.ch
 
 #### Testart:
 - Funktionstest
-
+ 
 #### Ziel: 
 Sicherstellen dass das STP funktioniert und beim Ausfall der Haupt Route die Sekundäre schnell einspringt.
 
