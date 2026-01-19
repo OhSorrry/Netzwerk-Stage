@@ -103,19 +103,13 @@ end
 conf t
 interface fa 0/0.10
 standby 10 timers msec 250 msec 750
-standby 20 timers msec 250 msec 750
-standby 30 timers msec 250 msec 750
 exit
 
 interface fa 0/0.20
-standby 10 timers msec 250 msec 750
 standby 20 timers msec 250 msec 750
-standby 30 timers msec 250 msec 750
 exit
 
 interface fa 0/0.30
-standby 10 timers msec 250 msec 750
-standby 20 timers msec 250 msec 750
 standby 30 timers msec 250 msec 750
 end
 ```
