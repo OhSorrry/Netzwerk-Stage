@@ -89,10 +89,10 @@ noe.messmer@raiffeisen.ch
 - Sanity Test
 
 #### Ziel: 
-Sicherstellen, dass der Spanning Tree bei einem Link-Ausfall einen alternativen Pfad öffnet.
+Sicherstellen dass das STP funktioniert und beim Ausfall der Haupt Route die Sekundäre schnell einspringt.
 
 #### Voraussetzung: 
-Linux-Client pingt das Gateway $172.21.20.1$. Der Pfad läuft aktuell von S3 direkt nach S1.
+Der Windows Client pingt den Gateway **172.21.20.1** Der Pfad läuft aktuell von S3 direkt nach S1.
 
 #### Durchführung:
 
