@@ -1,26 +1,22 @@
+## Auftragsbeschreibung
 
+In diesem Auftrag ging es darum das Abgebildete Netzwerk zu bauen. dabei spielt Redundanz eine Rolle, denn die Switches sollen per STP eine Ausfallsicherheit darstellen. des weiteren haben die Router eine geteilte Virtuelle Adresse und agieren so als 1 einzelner Router. Der Router 1 wird hier auf Standartbetrieb eingestellt, sobald der Router 1 ausfällt übernimmt der Router 2 den betrieb.
 
-
-
-
-
-
-
-
+![](Screenshots/Pasted%20image%2020260119100323.png)
 
 
 ## Adresstabelle
 
-| Bauteil:   | Name:      | IP-Adresse:                                                                            | Description:                               |
-| ---------- | ---------- | -------------------------------------------------------------------------------------- | ------------------------------------------ |
-| Windows PC | *TLABPC01* | *172.21.30.10*                                                                         | -                                          |
-| Linux PC   | *TLABPC02* | *172.21.20.10*                                                                         | -                                          |
-| Router 1   | *TLABr08*  | **FA0/0.1:** *172.21.10.1*<br>**FA0/0.2:** *172.21.20.1*<br>**FA0/0.3:** *172.21.30.1* | MGMT<br>LIN<br>WIN                         |
-| Router 2   | *TLABr01*  |                                                                                        |                                            |
-| Switch 1   | *TLABs05*  | **FA1/0/1:** -<br>**FA1/0/2:** -<br>**FA1/0/3:** -<br>                                 | TLABr08<br>TLABs06<br>TLABs21              |
-| Switch 2   | *TLABs21*  | **FA1/0/1:** -<br>**FA1/0/2:** -<br>**FA1/0/3:** -                                     | TLABr01 <br>TLABs05<br>TLABs06             |
-| Switch 3   | *TLABs06*  | **FA1/0/1:** -<br>**FA1/0/2:** -<br>**FA1/0/3:** -<br>**FA1/0/4:** -                   | TLABPC02<br>TLABs21<br>TLABs05<br>TLABPC01 |
-|            |            |                                                                                        |                                            |
+| Bauteil:   | Name:      | IP-Adresse:                                                                            | Virtuelle IP:                                                                          | Description:                               |
+| ---------- | ---------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------ |
+| Windows PC | *TLABPC01* | *172.21.30.10*                                                                         | -                                                                                      | -                                          |
+| Linux PC   | *TLABPC02* | *172.21.20.10*                                                                         | -                                                                                      | -                                          |
+| Router 1   | *TLABr08*  | **FA0/0.1:** *172.21.10.2*<br>**FA0/0.2:** *172.21.20.2*<br>**FA0/0.3:** *172.21.30.2* | **FA0/0.1:** *172.21.10.1*<br>**FA0/0.2:** *172.21.20.1*<br>**FA0/0.3:** *172.21.30.1* | MGMT<br>LIN<br>WIN                         |
+| Router 2   | *TLABr01*  | **FA0/0.1:** *172.21.10.3*<br>**FA0/0.2:** *172.21.20.3*<br>**FA0/0.3:** *172.21.30.3* | **FA0/0.1:** *172.21.10.1*<br>**FA0/0.2:** *172.21.20.1*<br>**FA0/0.3:** *172.21.30.1* | MGMT<br>LIN<br>WIN                         |
+| Switch 1   | *TLABs05*  | **FA1/0/1:** -<br>**FA1/0/2:** -<br>**FA1/0/3:** -<br>                                 | -<br>-<br>-                                                                            | TLABr08<br>TLABs06<br>TLABs21              |
+| Switch 2   | *TLABs21*  | **FA1/0/1:** -<br>**FA1/0/2:** -<br>**FA1/0/3:** -                                     | -<br>-<br>-                                                                            | TLABr01 <br>TLABs05<br>TLABs06             |
+| Switch 3   | *TLABs06*  | **FA1/0/1:** -<br>**FA1/0/2:** -<br>**FA1/0/3:** -<br>**FA1/0/4:** -                   | -<br>-<br>-<br>-                                                                       | TLABPC02<br>TLABs21<br>TLABs05<br>TLABPC01 |
+
 
 ---
 ---
@@ -152,7 +148,8 @@ end
 ---
 
 
-## Switch
+## Switch 3
+Die Switches werden wie in Auftrag 5 Konfiguriert. 
 ```cisco
 interface fa1/0/4
 description TLABPC01
