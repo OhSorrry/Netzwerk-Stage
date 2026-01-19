@@ -87,31 +87,29 @@ noe.messmer@raiffeisen.ch
 +41 78 767 86 46
 
 #### Testart:
-- Sanity Test
+- 
 
 #### Ziel: 
 Sicherstellen dass das STP funktioniert und beim Ausfall der Haupt Route die Sekundäre schnell einspringt.
 
 #### Voraussetzung: 
 Alle Geräte sind korrekt konfiguriert und eingeschaltet. 
-Der Pfad läuft aktuell von S3 direkt nach S1.
+Der Pfad läuft standartmässig über Switch 1.
 Ein Dauerhafter Ping vom Windows Client zum Gateway:
 ```cisco
 ping -t 172.21.30.1
 ```
 #### Durchführung:
-
-    1. Die Verbindung zwischen **S3 und S1** trennen.
-    
-    2. Den Pfad prüfen (z.B. via `show spanning-tree` auf S3).
-
+- Das Kabel wird zwischen Switch 1 und Switch 3 getrennt.
+- Der Ping zum Gateway wird beobachtet wie viele Pakete verloren gehen
+- Die Route auf Switch 3 prüfen 
+```cisco
+show spanning-tree
+``` 
+  
 #### Erwartetes Ergebnis:
-
-    - Der Port von S3 zu S2 (der vorher vermutlich im Status `Altn BLK` war) wechselt auf `FWD` (Forwarding).
-    
-    - Der Datenverkehr fließt nun den Umweg über S3 -> S2 -> S1 zum Router.
-    
-    - Die Verbindung bleibt nach einer kurzen STP-Konvergenzzeit bestehen.
+- Der Datenverkehr fliesst nun vom Windows Client über **Switch 3 --> Switch 2 --> Switch 1** zum Router.
+- Die Verbindung wird nur kurz unterbrochen, nach 1-2 verlorenen Paketen besteht die Verbindung wieder.
 
 
 #### Ergebnis:
