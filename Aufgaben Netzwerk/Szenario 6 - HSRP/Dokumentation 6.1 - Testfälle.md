@@ -1,5 +1,14 @@
 
 ## Testfall 1: Client zu Client Ping
+
+#### angaben des Testers:
+Noé Messmer
+noe.messmer@raiffeisen.ch
+
+
+#### Testart:
+
+
 #### Ziel:
 Die Clients prüfen ob sie sich gegenseitig und somit auch den Gateway pingen können.
 
@@ -22,6 +31,9 @@ ping 172.21.30.10
 - Der Ping von Client zu Client ist erfolgreich, Routing über verschiedene VLANs funktioniert
 
 #### Ergebnis:
+
+
+#### Mängelklasse:
 
 
 
