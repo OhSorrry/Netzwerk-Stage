@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aufgaben Netzwerk/Szenario 4 - Verbunden/Dokumentation 4.2 - Cisco Paket Tracer.md",
+                "file": "Aufgaben Netzwerk/Szenario 6 - HSRP/Dokumentation 6.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dokumentation 4.2 - Cisco Paket Tracer"
+              "title": "Dokumentation 6"
             }
           },
           {
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -237,13 +237,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "467cfb7b82d41bbe",
+  "active": "12abba0f0caae266",
   "lastOpenFiles": [
+    "Aufgaben Netzwerk/Szenario 4 - Verbunden/Dokumentation 4.2 - Cisco Paket Tracer.md",
+    "Aufgaben Netzwerk/Szenario 6 - HSRP/Dokumentation 6.1 - Testfälle.md",
     "Aufgaben Netzwerk/Szenario 6 - HSRP/Screenshots/Pasted image 20260119145659.png",
     "Aufgaben Netzwerk/Szenario 6 - HSRP/Screenshots/Pasted image 20260119145556.png",
-    "Aufgaben Netzwerk/Szenario 4 - Verbunden/Dokumentation 4.2 - Cisco Paket Tracer.md",
     "Aufgaben Netzwerk/Szenario 4 - Verbunden/Dokumentation 4.1 - Cisco Paket Tracer.md",
-    "Aufgaben Netzwerk/Szenario 6 - HSRP/Dokumentation 6.1 - Testfälle.md",
     "Aufgaben Netzwerk/Szenario 5 - STP/Dokumentation 5.2 - Zusätzliches VLAN.md",
     "Aufgaben Netzwerk/Szenario 5 - STP/Dokumentation 5.1 - In Cisco Paket Tracer.md",
     "Aufgaben Netzwerk/Szenario 5 - STP/Screenshots/Szenario 5.1.pkt",
@@ -267,7 +267,6 @@
     "Aufgaben Netzwerk/Szenario 4 - Verbunden/Screenshots 1/Pasted image 20260108133540.png",
     "Aufgaben Netzwerk/Szenario 4 - Verbunden/Screenshots 1/Pasted image 20260108094108.png",
     "Aufgaben Netzwerk/Szenario 4 - Verbunden/Screenshots 1/Pasted image 20260108094056.png",
-    "Aufgaben Netzwerk/Szenario 4 - Verbunden/Screenshots 1/Pasted image 20260108094008.png",
     "Aufgaben Netzwerk/Szenario 4 - Verbunden/Screenshots 1",
     "Aufgaben Netzwerk/Szenario 4.1 - Dynamisch Verbunden.md",
     "Aufgaben Netzwerk/Szenario 4 - Verbunden/Szenario 4.1 - Dynamisch Verbunden",

@@ -72,6 +72,7 @@ ip address 172.21.10.2 255.255.255.0
 standby 10 ip 172.21.10.1 
 standby 10 priority 110 
 standby 10 preempt
+standby 10 preempt delay minimum 30
 standby 10 timers msec 250 msec 750
 description MGMT
 no shutdown
@@ -82,6 +83,7 @@ ip address 172.21.20.2 255.255.255.0
 standby 20 ip 172.21.20.1 
 standby 20 priority 110 
 standby 20 preempt
+standby 20 preempt delay minimum 30
 standby 20 timers msec 250 msec 750
 description LIN
 
@@ -92,6 +94,7 @@ ip address 172.21.30.2 255.255.255.0
 standby 30 ip 172.21.30.1 
 standby 30 priority 110 
 standby 30 preempt
+standby 30 preempt delay minimum 30
 standby 30 timers msec 250 msec 750
 description WIN
 no shutdown
