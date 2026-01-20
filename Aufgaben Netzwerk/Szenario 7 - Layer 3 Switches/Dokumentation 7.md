@@ -119,7 +119,10 @@ spanning-tree portfast
 ## Switch 2
 
 ```cisco
+enable
+conf t
 hostname TLABs22
+end
 ```
 
 ```cisco
