@@ -226,14 +226,14 @@ standby 10 preempt
 standby 10 timers 1 3
 no shutdown
 
-interface Vlan 20 ip address 172.21.20.2 255.255.255.0 
+interface Vlan 20 ip address 172.21.20.103 255.255.255.0 
 standby 20 ip 172.21.20.1 
 standby 20 priority 110 
 standby 20 preempt 
 standby 20 timers 1 3
 no shutdown
 
-interface Vlan 20 ip address 172.21.30.2 255.255.255.0 
+interface Vlan 20 ip address 172.21.30.103 255.255.255.0 
 standby 30 ip 172.21.30.1 
 standby 30 priority 110 
 standby 30 preempt 
@@ -315,12 +315,12 @@ standby 10 ip 172.21.10.1
 standby 10 priority 90 
 standby 10 preempt 
 standby 10 timers 1 3
-interface Vlan 20 ip address 172.21.20.2 255.255.255.0 
+interface Vlan 20 ip address 172.21.20.104 255.255.255.0 
 standby 20 ip 172.21.20.1 
 standby 20 priority 90 
 standby 20 preempt 
 standby 20 timers 1 3
-interface Vlan 20 ip address 172.21.30.2 255.255.255.0 
+interface Vlan 20 ip address 172.21.30.104 255.255.255.0 
 standby 30 ip 172.21.30.1 
 standby 30 priority 90 
 standby 30 preempt 
