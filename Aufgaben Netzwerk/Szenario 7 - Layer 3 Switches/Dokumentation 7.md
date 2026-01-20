@@ -329,7 +329,7 @@ standby 30 timers 1 3
 
 
 interface fa1/0/1
-description TLABs06
+description TLABs05
 switchport trunk encapsulation dot1q
 switchport mode trunk
 switchport trunk allowed vlan 10,20,30
@@ -337,7 +337,7 @@ no shutdown
 exit
 
 interface fa1/0/2
-description TLABs21
+description TLABs22
 switchport trunk encapsulation dot1q
 switchport mode trunk
 switchport trunk allowed vlan 10,20,30
@@ -345,7 +345,7 @@ no shutdown
 exit
 
 interface fa1/0/3
-description TLABs22
+description TLABs21
 switchport trunk encapsulation dot1q
 switchport mode trunk
 switchport trunk allowed vlan 10,20,30
@@ -359,3 +359,7 @@ exit
 
 end
 ```
+
+
+| -<br>-<br>-<br> | TLABs05<br>TLABs22<br>TLABs21  |
+| --------------- | ------------------------------ |
