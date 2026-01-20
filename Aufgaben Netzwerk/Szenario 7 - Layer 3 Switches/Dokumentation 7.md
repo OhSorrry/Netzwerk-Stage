@@ -10,3 +10,7 @@
 | Switch 2 (Layer 2) | *TLABs024* | **FA1/0/1:** -<br>**FA1/0/2:** -<br>**FA1/0/3:** -     | -<br>-<br>-     |              |
 | Switch 3 (Layer 3) | *TLABs05*  | **FA1/0/1:** -<br>**FA1/0/2:** -<br>**FA1/0/3:** -<br> | -<br>-<br>-<br> |              |
 | Switch 4 (Layer 3) | *TLABs06*  | **FA1/0/1:** -<br>**FA1/0/2:** -<br>**FA1/0/3:** -     | -<br>-<br>-<br> |              |
+
+---
+---
+
