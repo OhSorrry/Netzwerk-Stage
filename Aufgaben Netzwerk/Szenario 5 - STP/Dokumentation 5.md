@@ -122,6 +122,7 @@ hostname TLABsXX
 enable password cisco
 line console 0
 password cisco
+login
 end
 ```
 ---

@@ -40,34 +40,18 @@ banner #
 #
 ```
 ---
-Grundkonfig:
 ```cisco
-conf t
-no ip domain-lookup
-```
-
----
-```cisco
-enable password cisco
-line console 0
-password cisco
-end
-```
----
-```cisco
-conf t
-banner #
-+-------------------------+
-|    Zugang verboten!     |
-+-------------------------+
-#
-```
----
-```cisco
-line vty 0 4
-password cisco
-login
-transport input telnet
+vlan 10
+name Management-VLAN
+exit
+vlan 20
+name LIN-VLAN
+exit
+vlan 30
+name WIN-VLAN
+exit
+vlan 999
+name Dummy-VLAN
 end
 ```
 ---
@@ -115,6 +99,7 @@ exit
 ip default-gateway 172.21.10.1
 line vty 0 4 
 password cisco
+transport input telnet
 end
 ```
 ```cisco
@@ -123,3 +108,56 @@ interface gi1/0/1
 spanning-tree portfast
 ```
 
+
+---
+---
+## Switch 2
+
+```cisco
+hostname TLABs24
+```
+
+```cisco
+conf t
+interface range Gi1/0/4 - 28
+description Dummy-VLAN
+switchport mode access
+switchport access vlan 999
+shutdown
+end
+```
+
+```cisco
+conf t
+interface Gi1/0/1
+description TLABPC01
+switchport mode access
+switchport access vlan 30
+exit
+interface Gi1/0/2
+description TLABs05
+switchport mode trunk
+switchport trunk encapsulation dot1q
+switchport trunk allowed vlan 10,20,30
+exit
+interface Gi1/0/3
+description TLABs06
+switchport mode trunk
+switchport trunk encapsulation dot1q
+switchport trunk allowed vlan 10,20,30
+exit
+interface vlan 10
+ip address 172.21.10.101 255.255.255.0
+no shutdown
+exit
+ip default-gateway 172.21.10.1
+line vty 0 4 
+password cisco
+transport input telnet
+end
+```
+```cisco
+spanning-tree mode rapid-pvst
+interface gi1/0/1
+spanning-tree portfast
+```
