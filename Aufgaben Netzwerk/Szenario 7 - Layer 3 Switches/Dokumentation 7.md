@@ -225,6 +225,7 @@ standby 10 ip 172.21.10.1
 standby 10 priority 110 
 standby 10 preempt 
 standby 10 timers 1 3
+standby 20 preempt delay minimum 30
 no shutdown
 
 interface Vlan 20 
@@ -233,6 +234,7 @@ standby 20 ip 172.21.20.1
 standby 20 priority 110 
 standby 20 preempt 
 standby 20 timers 1 3
+standby 20 preempt delay minimum 30
 no shutdown
 
 interface Vlan 30 
@@ -241,6 +243,7 @@ standby 30 ip 172.21.30.1
 standby 30 priority 110 
 standby 30 preempt 
 standby 30 timers 1 3
+standby 20 preempt delay minimum 30
 no shutdown
 
 interface fa1/0/1
