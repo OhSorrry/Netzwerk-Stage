@@ -327,8 +327,6 @@ standby 30 priority 90
 standby 30 preempt 
 standby 30 timers 1 3
 
-
-
 interface fa1/0/1
 description TLABs05
 switchport trunk encapsulation dot1q
