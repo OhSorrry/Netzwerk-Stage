@@ -265,7 +265,12 @@ switchport trunk encapsulation dot1q
 switchport mode trunk
 switchport trunk allowed vlan 10,20,30
 no shutdown
+exit
 
+spanning-tree vlan 1 root primary
+spanning-tree vlan 10 root primary
+spanning-tree vlan 20 root primary
+spanning-tree vlan 30 root primary
 
 end
 ```
