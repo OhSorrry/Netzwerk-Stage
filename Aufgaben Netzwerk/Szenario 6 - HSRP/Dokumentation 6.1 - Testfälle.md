@@ -122,11 +122,13 @@ show spanning-tree
 
 
 #### Ergebnis:
-
+Mittels des Befehles kann man sehen das als Standart Route der Switch 1 festgelegt ist und im Notfall ein anderer Übernimmt:
 ![](Screenshots/Pasted%20image%2020260119161109.png)
 
-
+Im Ping ging kein einziges Paket verloren, was sogar noch besser als erwartet ist. Dies könnte jedoch ein Zufall sein in dem ich das Kabel genau zur richtigen Zeit ausgesteckt habe, da es normalerweise üblich ist das Minimum ein Paket verloren geht.
+![](Screenshots/Pasted%20image%2020260120082402.png)
 
 
 
 #### Mängelklasse:
+Der Test war erfolgreich, es besteht keinen Grund eine Mängelklasse zu bestimmen.
