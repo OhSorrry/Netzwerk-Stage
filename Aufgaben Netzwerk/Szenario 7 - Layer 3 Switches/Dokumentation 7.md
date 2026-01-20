@@ -2,14 +2,14 @@
 
 
 
-| Bauteil:           | Name:      | IP-Adresse:                                            | Virtuelle IP:   | Description: |
-| ------------------ | ---------- | ------------------------------------------------------ | --------------- | ------------ |
-| Windows PC         | *TLABPC01* | *172.21.30.10*                                         | -               | -            |
-| Linux PC           | *TLABPC02* | *172.21.20.10*                                         | -               | -            |
-| Switch 1 (Layer 2) | *TLABs21*  | **FA1/0/1:** -<br>**FA1/0/2:** -<br>**FA1/0/3:** -<br> | -<br>-<br>-     | TLABPC01<br> |
-| Switch 2 (Layer 2) | *TLABs022* | **FA1/0/1:** -<br>**FA1/0/2:** -<br>**FA1/0/3:** -     | -<br>-<br>-     | TLABPC02     |
-| Switch 3 (Layer 3) | *TLABs05*  | **FA1/0/1:** -<br>**FA1/0/2:** -<br>**FA1/0/3:** -<br> | -<br>-<br>-<br> |              |
-| Switch 4 (Layer 3) | *TLABs06*  | **FA1/0/1:** -<br>**FA1/0/2:** -<br>**FA1/0/3:** -     | -<br>-<br>-<br> |              |
+| Bauteil:           | Name:      | IP-Adresse:                                            | Virtuelle IP:   | Description:                   |
+| ------------------ | ---------- | ------------------------------------------------------ | --------------- | ------------------------------ |
+| Windows PC         | *TLABPC01* | *172.21.30.10*                                         | -               | -                              |
+| Linux PC           | *TLABPC02* | *172.21.20.10*                                         | -               | -                              |
+| Switch 1 (Layer 2) | *TLABs21*  | **FA1/0/1:** -<br>**FA1/0/2:** -<br>**FA1/0/3:** -<br> | -<br>-<br>-     | TLABPC01<br>TLABs05<br>TLABs06 |
+| Switch 2 (Layer 2) | *TLABs022* | **FA1/0/1:** -<br>**FA1/0/2:** -<br>**FA1/0/3:** -     | -<br>-<br>-     | TLABPC02<br>TLABs06<br>TLABs05 |
+| Switch 3 (Layer 3) | *TLABs05*  | **FA1/0/1:** -<br>**FA1/0/2:** -<br>**FA1/0/3:** -<br> | -<br>-<br>-<br> | TLABs06<br>TLABs21<br>TLABs22  |
+| Switch 4 (Layer 3) | *TLABs06*  | **FA1/0/1:** -<br>**FA1/0/2:** -<br>**FA1/0/3:** -     | -<br>-<br>-<br> | TLABs05<br>TLABs22<br>TLABs21  |
 
 ---
 ---
@@ -114,7 +114,7 @@ spanning-tree portfast
 ## Switch 2
 
 ```cisco
-hostname TLABs24
+hostname TLABs22
 ```
 
 ```cisco
@@ -130,24 +130,24 @@ end
 ```cisco
 conf t
 interface Gi1/0/1
-description TLABPC01
+description TLABPC02
 switchport mode access
-switchport access vlan 30
+switchport access vlan 20
 exit
 interface Gi1/0/2
-description TLABs05
-switchport mode trunk
-switchport trunk encapsulation dot1q
-switchport trunk allowed vlan 10,20,30
-exit
-interface Gi1/0/3
 description TLABs06
 switchport mode trunk
 switchport trunk encapsulation dot1q
 switchport trunk allowed vlan 10,20,30
 exit
+interface Gi1/0/3
+description TLABs05
+switchport mode trunk
+switchport trunk encapsulation dot1q
+switchport trunk allowed vlan 10,20,30
+exit
 interface vlan 10
-ip address 172.21.10.101 255.255.255.0
+ip address 172.21.10.102 255.255.255.0
 no shutdown
 exit
 ip default-gateway 172.21.10.1
