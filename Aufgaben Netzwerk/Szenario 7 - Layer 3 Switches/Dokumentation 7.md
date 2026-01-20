@@ -206,6 +206,16 @@ end
 
 ```cisco
 conf t
+interface range Gi1/0/1 - 4
+description Dummy-VLAN
+switchport mode access
+switchport access vlan 999
+shutdown
+end
+```
+
+```cisco
+conf t
 
 ip routing
 
