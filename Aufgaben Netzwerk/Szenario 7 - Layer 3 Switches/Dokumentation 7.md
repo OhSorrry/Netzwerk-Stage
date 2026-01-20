@@ -109,7 +109,7 @@ switchport trunk encapsulation dot1q
 switchport trunk allowed vlan 10,20,30
 exit
 interface vlan 10
-ip address 172.21.10.103 255.255.255.0
+ip address 172.21.10.101 255.255.255.0
 no shutdown
 exit
 ip default-gateway 172.21.10.1
