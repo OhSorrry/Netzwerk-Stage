@@ -225,7 +225,7 @@ no shutdown
 interface vlan 20
 ip address 172.21.20.1 255.255.255.0
 no shutdown
-interface vlan 20
+interface vlan 30
 ip address 172.21.30.1 255.255.255.0
 no shutdown
 
