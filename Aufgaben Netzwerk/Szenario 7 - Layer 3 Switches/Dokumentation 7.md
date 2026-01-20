@@ -103,8 +103,8 @@ interface vlan 10
 ip address 172.21.10.101 255.255.255.0
 no shutdown
 exit
-ip default-gateway 172.21.10.1
-line vty 0 4 
+ip default-gateway 172.21.10.103
+line vty 0 15 
 password cisco
 transport input telnet
 end
@@ -168,7 +168,7 @@ interface vlan 10
 ip address 172.21.10.102 255.255.255.0
 no shutdown
 exit
-ip default-gateway 172.21.10.1
+ip default-gateway 172.21.10.103
 line vty 0 15 
 password cisco
 transport input telnet
