@@ -82,6 +82,7 @@ switchport mode access
 switchport access vlan 30
 no shutdown
 exit
+
 interface Gi1/0/2
 description TLABs05
 switchport mode trunk
@@ -89,6 +90,7 @@ switchport trunk encapsulation dot1q
 switchport trunk allowed vlan 10,20,30
 no shutdown
 exit
+
 interface Gi1/0/3
 description TLABs06
 switchport mode trunk
@@ -96,6 +98,7 @@ switchport trunk encapsulation dot1q
 switchport trunk allowed vlan 10,20,30
 no shutdown
 exit
+
 interface vlan 10
 ip address 172.21.10.101 255.255.255.0
 no shutdown
@@ -111,6 +114,7 @@ conf t
 spanning-tree mode rapid-pvst
 interface gi1/0/1
 spanning-tree portfast
+end
 ```
 
 
@@ -141,19 +145,25 @@ interface Gi1/0/1
 description TLABPC02
 switchport mode access
 switchport access vlan 20
+no shutdown
 exit
+
 interface Gi1/0/2
 description TLABs06
 switchport mode trunk
 switchport trunk encapsulation dot1q
 switchport trunk allowed vlan 10,20,30
+no shutdown
 exit
+
 interface Gi1/0/3
 description TLABs05
 switchport mode trunk
 switchport trunk encapsulation dot1q
 switchport trunk allowed vlan 10,20,30
+no shutdown
 exit
+
 interface vlan 10
 ip address 172.21.10.102 255.255.255.0
 no shutdown
@@ -165,7 +175,20 @@ transport input telnet
 end
 ```
 ```cisco
+conf t
 spanning-tree mode rapid-pvst
 interface gi1/0/1
 spanning-tree portfast
+end
 ```
+
+---
+---
+
+## Switch 3
+
+
+
+
+
+
