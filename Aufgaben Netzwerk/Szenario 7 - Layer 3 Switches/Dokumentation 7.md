@@ -351,8 +351,9 @@ switchport trunk allowed vlan 10,20,30
 no shutdown
 exit
 
-
-
+line vty 0 15 
+password cisco
+transport input telnet
 end
 ```
 
