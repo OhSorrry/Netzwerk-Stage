@@ -76,14 +76,7 @@
               "icon": "lucide-file",
               "title": "Dokumentation 7"
             }
-          }
-        ],
-        "currentTab": 4
-      },
-      {
-        "id": "d6e185c46615691a",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "a54ff5857397b50b",
             "type": "leaf",
@@ -98,7 +91,8 @@
               "title": "Dokumentation 7"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -271,7 +265,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fa5c92fd3bf447c9",
+  "active": "a54ff5857397b50b",
   "lastOpenFiles": [
     "Aufgaben Netzwerk/Szenario 5 - STP/Dokumentation 5.md",
     "Aufgaben Netzwerk/Szenario 7 - Layer 3 Switches/Dokumentation 7.md",
