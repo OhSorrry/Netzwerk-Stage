@@ -187,7 +187,6 @@ end
 
 ## Switch 3
 
-
 ```cisco
 enable
 conf t
