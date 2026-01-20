@@ -1,4 +1,4 @@
-![](Screenshots/Szenario%205.1.pkt)
+In dieser Aufgabe mussten wir das gesamte Netzwerk vom Szenario 4 ins Cisco Packet Tracker übertragen. In der folgenden Dokumentation sind die Befehle die Ich in CPT verwendet habe. Im Ordner der Dateien ist auch das Dokument der Aufgabe angehängt.
 ## Router
 Grundkonfig:
 ```cisco
