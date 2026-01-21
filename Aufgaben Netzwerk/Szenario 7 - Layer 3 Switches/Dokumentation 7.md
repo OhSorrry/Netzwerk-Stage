@@ -378,7 +378,7 @@ ip routing
 interface fa1/0/4
 no shutdown
 no switchport
-description TLABs25 Routed
+description TLABs01 Routed
 ip address 172.21.200.1 255.255.255.0
 exit
 
@@ -428,7 +428,7 @@ end
 ```
 
 
-# Switch 5 (s25)
+# Switch 5 (s01)
 
 
 ```cisco
