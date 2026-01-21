@@ -468,9 +468,9 @@ network 172.21.203.0 0.0.0.255
 network 172.21.204.0 0.0.0.255 
 
 passive-interface default
-no passive-interface fa0/1
-no passive-interface fa0/2
-no passive-interface fa0/3
+no passive-interface gi1/0/1
+no passive-interface gi1/0/2
+no passive-interface gi1/0/3
 end
 ```
 
