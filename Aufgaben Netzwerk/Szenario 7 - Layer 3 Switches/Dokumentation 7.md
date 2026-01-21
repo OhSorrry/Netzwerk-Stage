@@ -369,75 +369,86 @@ end
 
 ---
 ---
-## Switch 5
-
-```cisco
-enable
-conf t
-hostname TLABs06
-end
-```
-
+# Szenario 9 - Routing/STP
+## Switch 3 (s05)
 ```cisco
 conf t
-interface range fa1/0/4 - 48
-description Dummy-VLAN
-switchport mode access
-switchport access vlan 999
-shutdown
-end
-```
-
-```cisco
-conf t
-interface range Gi1/0/1 - 4
-description Dummy-VLAN
-switchport mode access
-switchport access vlan 999
-shutdown
-end
-```
-
-```cisco
-conf t
-
 ip routing
 
-interface fa1/0/1
-description TLABs05
-switchport trunk encapsulation dot1q
-switchport mode trunk
-switchport trunk allowed vlan 10,20,30
+router eigrp 100
+no auto-summary
+network 172.21.110.0 0.0.0.255
+network 172.21.120.0 0.0.0.255
+network 172.21.130.0 0.0.0.255
+passive-interface default
+no passive-interface fa1/0/1
+no passive-interface fa1/0/4
+end
+```
+
+# Switch 4 (s06)
+```cisco
+conf t
+ip routing
+
+router eigrp 100
+no auto-summary
+network 172.21.110.0 0.0.0.255
+network 172.21.120.0 0.0.0.255
+network 172.21.130.0 0.0.0.255
+network 172.21.200.0 0.0.0.255
+network 172.21.201.0 0.0.0.255
+network 172.21.202.0 0.0.0.255
+network 172.21.203.0 0.0.0.255
+network 172.21.204.0 0.0.0.255 
+
+passive-interface default
+no passive-interface fa1/0/1
+no passive-interface fa1/0/4
+end
+```
+
+
+# Switch 5 (s25)
+```cisco
+conf t
+ip routing
+
+interface fa0/1
 no shutdown
+no switchport
+description TLABs01 Routing
+ip address 172.21.204.1 255.255.255.0
 exit
 
-interface fa1/0/2
-description TLABs22
-switchport trunk encapsulation dot1q
-switchport mode trunk
-switchport trunk allowed vlan 10,20,30
+interface fa0/2
 no shutdown
+no switchport
+description TLABs01 Routing
+ip address 172.21.202.2 255.255.255.0
 exit
 
-interface fa1/0/3
-description TLABs21
-switchport trunk encapsulation dot1q
-switchport mode trunk
-switchport trunk allowed vlan 10,20,30
+interface fa0/3
 no shutdown
+no switchport
+description TLABs01 Routing
+ip address 172.21.203.2 255.255.255.0
 exit
 
-line vty 0 15 
-password cisco
-transport input telnet
+router eigrp 100
+no auto-summary
+network 172.21.200.0 0.0.0.255
+network 172.21.201.0 0.0.0.255
+network 172.21.202.0 0.0.0.255
+network 172.21.203.0 0.0.0.255
+network 172.21.204.0 0.0.0.255 
+
+passive-interface default
+no passive-interface fa0/1
+no passive-interface fa0/2
+no passive-interface fa0/3
 end
 ```
 
 
 
-
-
----
----
-
-## Switch 6
