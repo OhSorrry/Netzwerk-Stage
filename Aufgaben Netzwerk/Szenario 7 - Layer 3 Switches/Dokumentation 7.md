@@ -415,28 +415,47 @@ end
 
 
 # Switch 5 (s25)
+
+
+```cisco
+enable
+conf t
+hostname TLABs25
+end
+```
+
+```cisco
+conf t
+interface range Gi1/0/4 - 28
+description Dummy-VLAN
+switchport mode access
+switchport access vlan 999
+shutdown
+end
+```
+
 ```cisco
 conf t
 ip routing
 
-interface fa0/1
+interface gi1/0/1
 no shutdown
 no switchport
-description TLABs01 Routing
+description TLABs38 Routed
 ip address 172.21.204.1 255.255.255.0
 exit
 
-interface fa0/2
+interface gi1/0/2
 no shutdown
 no switchport
-description TLABs01 Routing
+description TLABs05 Routed
 ip address 172.21.202.2 255.255.255.0
 exit
 
-interface fa0/3
+interface gi1/0/3
 no shutdown
 no switchport
-description TLABs01 Routing
+description TLABs12 Routed
 ip address 172.21.203.2 255.255.255.0
 exit
 
