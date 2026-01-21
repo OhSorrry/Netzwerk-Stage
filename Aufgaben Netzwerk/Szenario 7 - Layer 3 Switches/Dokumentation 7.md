@@ -371,6 +371,70 @@ end
 ---
 ## Switch 5
 
+```cisco
+enable
+conf t
+hostname TLABs06
+end
+```
+
+```cisco
+conf t
+interface range fa1/0/4 - 48
+description Dummy-VLAN
+switchport mode access
+switchport access vlan 999
+shutdown
+end
+```
+
+```cisco
+conf t
+interface range Gi1/0/1 - 4
+description Dummy-VLAN
+switchport mode access
+switchport access vlan 999
+shutdown
+end
+```
+
+```cisco
+conf t
+
+ip routing
+
+interface fa1/0/1
+description TLABs05
+switchport trunk encapsulation dot1q
+switchport mode trunk
+switchport trunk allowed vlan 10,20,30
+no shutdown
+exit
+
+interface fa1/0/2
+description TLABs22
+switchport trunk encapsulation dot1q
+switchport mode trunk
+switchport trunk allowed vlan 10,20,30
+no shutdown
+exit
+
+interface fa1/0/3
+description TLABs21
+switchport trunk encapsulation dot1q
+switchport mode trunk
+switchport trunk allowed vlan 10,20,30
+no shutdown
+exit
+
+line vty 0 15 
+password cisco
+transport input telnet
+end
+```
+
+
+
 
 
 ---
