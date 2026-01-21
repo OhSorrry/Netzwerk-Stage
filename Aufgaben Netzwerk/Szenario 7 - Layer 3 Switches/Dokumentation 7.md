@@ -442,21 +442,21 @@ interface gi1/0/1
 no shutdown
 no switchport
 description TLABs38 Routed
-ip address 172.21.204.1 255.255.255.0
+ip address 172.21.204.2 255.255.255.0
 exit
 
 interface gi1/0/2
 no shutdown
 no switchport
 description TLABs05 Routed
-ip address 172.21.202.2 255.255.255.0
+ip address 172.21.200.2 255.255.255.0
 exit
 
 interface gi1/0/3
 no shutdown
 no switchport
 description TLABs12 Routed
-ip address 172.21.203.2 255.255.255.0
+ip address 172.21.201.2 255.255.255.0
 exit
 
 router eigrp 100
