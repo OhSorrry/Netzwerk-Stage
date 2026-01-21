@@ -375,6 +375,13 @@ end
 conf t
 ip routing
 
+interface fa1/0/4
+no shutdown
+no switchport
+description TLABs25 Routed
+ip address 172.21.200.1 255.255.255.0
+exit
+
 router eigrp 100
 no auto-summary
 network 172.21.10.0 0.0.0.255
@@ -395,6 +402,13 @@ end
 ```cisco
 conf t
 ip routing
+
+interface fa1/0/4
+no shutdown
+no switchport
+description TLABs38 Routed
+ip address 172.21.202.1 255.255.255.0
+exit
 
 router eigrp 100
 no auto-summary
