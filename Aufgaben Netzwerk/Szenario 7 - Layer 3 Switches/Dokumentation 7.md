@@ -377,9 +377,14 @@ ip routing
 
 router eigrp 100
 no auto-summary
-network 172.21.110.0 0.0.0.255
-network 172.21.120.0 0.0.0.255
-network 172.21.130.0 0.0.0.255
+network 172.21.10.0 0.0.0.255
+network 172.21.20.0 0.0.0.255
+network 172.21.30.0 0.0.0.255
+network 172.21.200.0 0.0.0.255
+network 172.21.201.0 0.0.0.255
+network 172.21.202.0 0.0.0.255
+network 172.21.203.0 0.0.0.255
+network 172.21.204.0 0.0.0.255 
 passive-interface default
 no passive-interface fa1/0/1
 no passive-interface fa1/0/4
@@ -393,9 +398,9 @@ ip routing
 
 router eigrp 100
 no auto-summary
-network 172.21.110.0 0.0.0.255
-network 172.21.120.0 0.0.0.255
-network 172.21.130.0 0.0.0.255
+network 172.21.10.0 0.0.0.255
+network 172.21.20.0 0.0.0.255
+network 172.21.30.0 0.0.0.255
 network 172.21.200.0 0.0.0.255
 network 172.21.201.0 0.0.0.255
 network 172.21.202.0 0.0.0.255
