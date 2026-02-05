@@ -90,9 +90,21 @@
               "icon": "lucide-file",
               "title": "Dokumentation 7"
             }
+          },
+          {
+            "id": "c70f946a3714f480",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.5"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -265,7 +277,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "93dd3e1dba51f6dc",
+  "active": "c70f946a3714f480",
   "lastOpenFiles": [
     "Aufgaben Netzwerk/Szenario 7 - Layer 3 Switches/Dokumentation 7.md",
     "Aufgaben Netzwerk/Szenario 6 - HSRP/Dokumentation 6.md",
